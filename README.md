@@ -20,7 +20,8 @@ The purpose of this project is to create a minimalist MEAN stack hello-world:
 
 - Task Management: Trello
 - IDE: Visual Studio Code
-- Version Control: GitHub
+- Version Control: Git
+- Repository: Github
 - Database: MongoDB
 - Frontend Framework: Angular
 - Backend Framework: Express
@@ -31,17 +32,39 @@ The purpose of this project is to create a minimalist MEAN stack hello-world:
 The steps below were taken to manage this project and reach the hello world state:
 1)Set up a Trello board for task management: https://trello.com/b/nTZWOi2L/mean-hello-world
 2)Create a directory on developer computer named "mean"
-3)Open new directory within Visual Studio Code (IDE)
-4)Create a README.md in the new directory to project information and setup steps
+3)Open the new directory within Visual Studio Code (IDE)
+4)Create a README.md in the new directory for project information and setup steps
 5)Setup Node and Express
     -Install Node on developer system from nodejs.org/en (follow installation instructions)
     -From command prompt, navigate to mean directory, then execute "npm init" and answer series of questions to create package.json
     -From command prompt, navigate to mean directory, then execute "npm install express"
+6)Setup GIT for version control
+    -Create .gitignore file in mean directory
+    -Install Git on developer system from https://git-scm.com/ (follow installation instructions)
+    -From command prompt, navigate to mean directory, then execute "git init"
+7)Setup Github Repository to store project files
+    -Install Github CLI
+    -Authenticate Github on developer system (a token will need setup)
+    -Push procedure from project directory:
+        -Add all files (excluding gitignore items), execute "git add -A"
+        -Commit files, execute "git  commit -m "(Add a message to describe commit here)"
+        -Push git commit to Github "git push -u origin main"
+8)Setup Angular
+    -(Node and NPM are required, but were already installed in step 5)
+    -Install typescript from command line by executing "npm install -g typescript"
+    -Install Angular CLI from command line by executing "npm install -g @angular/cli"
+    -Create new Angular project in the mean directory called "mean-stack"
+TBD)Build server
+    -Create index.js in the mean directory
 (Remaning steps TBD)
 
 ## Usage
 
-Instructions for how to use the project.
+1)Complete all of the installation and setup steps
+2)Start server locally
+    -From command prompt, navigate to mean directory, then execute "node index.js"
+3)Serve Angular in development mode
+    -From command prompt, navigate to mean-stack directory, then execute "ng serve"
 
 ## Credits
 
@@ -76,4 +99,4 @@ SOFTWARE.
 
 ## Tests
 
--The best test of this project is to run through all of the steps and validate that a functional MEAN stack is set up correctly.
+To test this project, run through all of the installation and steps and validate that a functional MEAN stack is set up correctly.
