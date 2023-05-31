@@ -35,54 +35,54 @@ The steps below were taken to manage this project and reach the hello world stat
 3. Open the new directory within Visual Studio Code (IDE)
 4. Create a README.md in the new directory for project information and setup steps
 5. Setup Node and Express
-    -Install Node on developer system from nodejs.org/en (follow installation instructions)
-    -From command prompt, navigate to mean directory, then execute "npm init" and answer series of questions to create package.json
-    -From command prompt, navigate to mean directory, then execute "npm install express"
+    - Install Node on developer system from nodejs.org/en (follow installation instructions)
+    - From command prompt, navigate to mean directory, then execute "npm init" and answer series of questions to create package.json
+    - From command prompt, navigate to mean directory, then execute "npm install express"
 6. Setup GIT for version control
-    -Create .gitignore file in mean directory
-    -Install Git on developer system from https://git-scm.com/ (follow installation instructions)
-    -From command prompt, navigate to mean directory, then execute "git init"
+    - Create .gitignore file in mean directory
+    - Install Git on developer system from https://git-scm.com/ (follow installation instructions)
+    - From command prompt, navigate to mean directory, then execute "git init"
 7. Setup Github Repository to store project files
-    -Install Github CLI
-    -Create Github account (if one does not exist)
-    -Create a repository on github to store project
-    -Authenticate Github on developer system (a token will need setup)
-        -Navigate to the project directory and execute "gh auth login --hostname https://github.com/<owner>"
-    -Link to new repository by executing: git remote add origin https://github.com/<owner>/<repo name>.git
-    -Push procedure from project directory:
-        -Add all files (excluding gitignore items), execute "git add -A"
-        -Commit files, execute "git  commit -m "(Add a message to describe commit here)"
-        -Push git commit to Github "git push -u origin master"
+    - Install Github CLI
+    - Create Github account (if one does not exist)
+    - Create a repository on github to store project
+    - Authenticate Github on developer system (a token will need setup)
+        - Navigate to the project directory and execute "gh auth login --hostname https://github.com/<owner>"
+    - Link to new repository by executing: git remote add origin https://github.com/<owner>/<repo name>.git
+    - Push procedure from project directory:
+        - Add all files (excluding gitignore items), execute "git add -A"
+        - Commit files, execute "git  commit -m "(Add a message to describe commit here)"
+        - Push git commit to Github "git push -u origin master"
 8. Setup Angular
-    -(Node and NPM are required, but were already installed in step 5)
-    -Install typescript from command line by executing "npm install -g typescript"
-    -Install Angular CLI from command line by executing "npm install -g @angular/cli"
-    -Create new Angular project in the mean directory called "mean-stack"
+    - (Node and NPM are required, but were already installed in step 5)
+    - Install typescript from command line by executing "npm install -g typescript"
+    - Install Angular CLI from command line by executing "npm install -g @angular/cli"
+    - Create new Angular project in the mean directory called "mean-stack"
 9. Build basic webpage
-    -Create home component for landing page
-    -Create contact component to act as a contact page
-    -Add images folder to assets, then save an image to display
-    -Create routes module by executing "ng generate module app-routes --flat --module=app"
-    -Add routes for homepage and contact page
-    -Replace content of app.componenet.html with "<router-outlet></router-outlet>
+    - Create home component for landing page
+    - Create contact component to act as a contact page
+    - Add images folder to assets, then save an image to display
+    - Create routes module by executing "ng generate module app-routes --flat --module=app"
+    - Add routes for homepage and contact page
+    - Replace content of app.componenet.html with "<router-outlet></router-outlet>
 10. Setup MongoDB Database
-    -Install MongoDB on developer system from https://www.mongodb.com/try/download/community (follow installation instructions)
+    - Install MongoDB on developer system from https://www.mongodb.com/try/download/community (follow installation instructions)
 11. Build server
-    -Create index.js in the mean directory
+    - Create index.js in the mean directory
 (Remaning steps TBD)
 
 ## Usage
 
-1)Complete all of the installation and setup steps
-2)Start server locally
-    -From command prompt, navigate to mean directory, then execute "node index.js"
-3)Serve Angular in development mode
-    -From command prompt, navigate to mean-stack directory, then execute "ng serve"
+1. Complete all of the installation and setup steps
+2. Start server locally
+    - From command prompt, navigate to mean directory, then execute "node index.js"
+3. Serve Angular in development mode
+    - From command prompt, navigate to mean-stack directory, then execute "ng serve"
 
 ## Credits
 
 Resources used to build this project:
--"Web Development with Node & Express: Leveraging the JavaScript Stack" by Ethan Brown, OReilly Books
+- "Web Development with Node & Express: Leveraging the JavaScript Stack" by Ethan Brown, OReilly Books
 
 ## License
 
