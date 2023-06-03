@@ -6,7 +6,7 @@ The purpose of this project is to create a minimalist MEAN stack hello-world:
 
 - A template to be used for future projects
 - To learn about configurations that are required to reach a locally hosted full stack hosted website
-- A functioning full stack development website with a database and backend scripting
+- A functioning full stack development project with a database, frontend SPA, and backend scripting
 
 ## Table of Contents (Optional)
 
@@ -23,8 +23,8 @@ The purpose of this project is to create a minimalist MEAN stack hello-world:
 - Version Control: Git
 - Repository: Github
 - Database: MongoDB
-- Frontend Framework: Angular
 - Backend Framework: Express
+- Frontend Framework: Angular
 - Backend Code: Node
 
 ## Installation and Setup
@@ -65,9 +65,14 @@ The steps below were taken to manage this project and reach the hello world stat
     - Create routes module by executing "ng generate module app-routes --flat --module=app"
     - Add routes for homepage and contact page
     - Replace content of app.componenet.html with "<router-outlet></router-outlet>
-10. Setup MongoDB Database
+10. Configure API
+    - Create frontend interfaces to capture data from server
+        - From mean-stack directory, execute "ng generate interface <interface name>
+        - Add data and types to the intefaces
+    - Create frontend service to request data
+90. Setup MongoDB Database
     - Install MongoDB on developer system from https://www.mongodb.com/try/download/community (follow installation instructions)
-11. Build server
+91. Build server
     - Create index.js in the mean directory
 (Remaning steps TBD)
 

@@ -1,4 +1,5 @@
 const express = require('express')
+const mongo = require('./lib/mongo')
 
 const app = express()
 
@@ -7,6 +8,10 @@ const port = process.env.PORT || 3000
 app.get('/', (req, res) => {
     res.type('text/plain')
     res.send('MEAN Hello World Homepage')
+})
+
+app.get('/data', (req, res) => {
+    mongo.dataTest()
 })
 
 //custom 404 page
