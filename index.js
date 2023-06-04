@@ -1,5 +1,6 @@
 const express = require('express')
 const mongo = require('./lib/mongo')
+const handlers = require('./lib/handlers')
 
 const app = express()
 
@@ -13,6 +14,8 @@ app.get('/', (req, res) => {
 app.get('/data', (req, res) => {
     mongo.dataTest()
 })
+
+app.get('/api/peaks', handlers.getPeaksApi)
 
 //custom 404 page
 app.use((req, res) => {

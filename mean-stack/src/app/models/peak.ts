@@ -1,4 +1,4 @@
-export interface peak {
+export interface Peak {
     id: number;
     name: string;
     range: string;

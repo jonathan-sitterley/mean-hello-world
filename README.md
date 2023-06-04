@@ -59,17 +59,28 @@ The steps below were taken to manage this project and reach the hello world stat
     - Install Angular CLI from command line by executing "npm install -g @angular/cli"
     - Create new Angular project in the mean directory called "mean-stack"
 9. Build basic webpage
-    - Create home component for landing page
-    - Create contact component to act as a contact page
+    - Create components for each page
+        - From mean-stack directory, execute "ng generate component <folder>/<component name>
+        - Create home component for landing page
+        - Create contact component to act as a contact page
     - Add images folder to assets, then save an image to display
     - Create routes module by executing "ng generate module app-routes --flat --module=app"
-    - Add routes for homepage and contact page
-    - Replace content of app.componenet.html with "<router-outlet></router-outlet>
+    - Add routes for new pages and replace content of app.componenet.html with "<router-outlet></router-outlet>
 10. Configure API
     - Create frontend interfaces to capture data from server
         - From mean-stack directory, execute "ng generate interface <interface name>
-        - Add data and types to the intefaces
+        - Add fields and types to the interfaces
     - Create frontend service to request data
+        - Add HttpClientModule to app.module.ts
+        - From mean-stack directory, execute "ng generate service <folder>/<service name>
+        - Create API request with Observable in the new service
+        - Add service and Observable subscription to a component so it can be used
+    - Create backend module to handle API requests
+        - Add module and API to index.js
+    - Create proxy configuration file to connect frontend to backend in developer mode
+        -Add proxy.conf.json to mean-stack directory
+
+
 90. Setup MongoDB Database
     - Install MongoDB on developer system from https://www.mongodb.com/try/download/community (follow installation instructions)
 91. Build server
