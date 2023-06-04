@@ -5,9 +5,83 @@
     <h2>
         Peaks:
     </h2>
-    <br>
     <button (click)="getPeaks()">Get Peaks</button>
-    <br>
-    Peaks: {{peaks}}
+    <br><br>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            ID
+          </th>
+          <th>
+            Name
+          </th>
+          <th>
+            Range
+          </th>
+          <th>
+            Elevation
+          </th>
+          <th>
+            Latitude
+          </th>
+          <th>
+            Longitude
+          </th>
+          <th>
+            Standard Route
+          </th>
+          <th>
+            Distance
+          </th>
+          <th>
+            Gain
+          </th>
+          <th>
+            Difficulty
+          </th>
+          <th>
+            Photo
+          </th>
+        </tr>
+      </thead>  
+      <tbody>
+        <tr *ngFor="let peak of peaks">
+          <td>
+            {{peak.id}}
+          </td>  
+          <td>
+            {{peak.name}}
+          </td>  
+          <td>
+            {{peak.range}}
+          </td>  
+          <td>
+            {{peak.elevation}}
+          </td>  
+          <td>
+            {{peak.latitude}}
+          </td>  
+          <td>
+            {{peak.longitude}}
+          </td>  
+          <td>
+            {{peak.standard_route}}
+          </td>  
+          <td>
+            {{peak.distance}}
+          </td>  
+          <td>
+            {{peak.gain}}
+          </td>  
+          <td>
+            {{peak.difficulty}}
+          </td>  
+          <td>
+            {{peak.photo}}
+          </td>  
+        </tr>
+      </tbody>
+    </table>  
 
 </div>

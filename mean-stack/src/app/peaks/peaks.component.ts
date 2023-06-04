@@ -11,6 +11,7 @@ import { Peak } from '../models/peak';
 export class PeaksComponent {
 
   public peaks: Peak[] = [];
+  public test = [1,2,3,4];
 
   constructor(private peakService: PeakService) {}
 

@@ -93,7 +93,7 @@ The steps below were taken to manage this project and reach the hello world stat
 2. Start server locally
     - From command prompt, navigate to mean directory, then execute "node index.js"
 3. Serve Angular in development mode
-    - From command prompt, navigate to mean-stack directory, then execute "ng serve"
+    - From command prompt, navigate to mean-stack directory, then execute "ng serve --proxy-config proxy.conf.json"
 
 ## Credits
 
