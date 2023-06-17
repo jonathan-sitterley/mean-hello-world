@@ -1,8 +1,12 @@
 const express = require('express')
-const mongo = require('./lib/mongo')
+const bodyParser = require('body-parser')
+
 const handlers = require('./lib/handlers')
 
 const app = express()
+
+app.use(bodyParser.urlencoded({ extended: true }))
+app.use(express.json())
 
 const port = process.env.PORT || 3000
 
@@ -11,11 +15,14 @@ app.get('/', (req, res) => {
     res.send('MEAN Hello World Homepage')
 })
 
-app.get('/data', (req, res) => {
-    mongo.dataTest()
-})
+app.get('/api/resetCollections', handlers.resetCollections)
 
-app.get('/api/peaks', handlers.getPeaksApi)
+app.post('/api/createUser', handlers.createUser)
+app.get('/api/peaks', handlers.getPeaks)
+app.get('/api/users', handlers.getUsers)
+app.get('/api/peak/:rank', handlers.getPeakByRank)
+app.post('/api/updateUser', handlers.updateUserByEmail)
+app.delete('/api/user/:email', handlers.deleteUserByEmail)
 
 //custom 404 page
 app.use((req, res) => {

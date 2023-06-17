@@ -11,7 +11,7 @@ import { Peak } from '../models/peak';
 export class PeaksComponent {
 
   public peaks: Peak[] = [];
-  public test = [1,2,3,4];
+  public peakRank: number = 5;
 
   constructor(private peakService: PeakService) {}
 
@@ -20,5 +20,12 @@ export class PeaksComponent {
       this.peaks = peaks;
     }));
   }
+
+  getPeakByRank() {
+    console.log(this.peakService.getPeakByRank(this.peakRank).subscribe(peaks => {
+      this.peaks = peaks;
+    }));
+  }
+
 
 }

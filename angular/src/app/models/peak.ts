@@ -4,7 +4,7 @@ export interface Peak {
     range: string;
     elevation: number;
     latitude: string;
-    longitude: string
+    longitude: string;
     standard_route: string;
     distance: string;
     gain: number;

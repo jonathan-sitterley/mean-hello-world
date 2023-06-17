@@ -1,0 +1,58 @@
+<div>
+    <div>
+      <span><a href="/">Home</a></span>
+    </div>
+    <h2>
+        Mongo Interface
+    </h2>
+    <button (click)="resetCollections()">Reset Collections</button><br><br>
+</div>
+<hr>
+<div>
+  <h2>User Creation</h2>
+  <div class="new-user">
+    <input type="text" placeholder="First Name" name="firstName" [(ngModel)]="userInput.firstName">
+    <input type="text" placeholder="Last Name" name="lastName" [(ngModel)]="userInput.lastName">
+    <input type="text" placeholder="Email" name="email" [(ngModel)]="userInput.email">
+  </div>
+  <button (click)="createUser()">Create User</button>
+  <button (click)="updateUser()">Update User by Email</button>
+  <button (click)="deleteUser()">Delete User by Email</button>
+</div>
+<hr>
+<button (click)="getUsers()">Get Users</button>
+    <br><br>
+    <table *ngIf="users.length > 0">
+      <thead>
+        <tr>
+          <th>
+            id
+          </th>
+          <th>
+            First Name
+          </th>
+          <th>
+            Last Name
+          </th>
+          <th>
+            Email
+          </th>
+        </tr>
+      </thead>  
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>
+            {{user.id}}
+          </td>  
+          <td>
+            {{user.firstName}}
+          </td>  
+          <td>
+            {{user.lastName}}
+          </td>  
+          <td>
+            {{user.email}}
+          </td>
+        </tr>
+      </tbody>
+    </table> 

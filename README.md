@@ -34,15 +34,17 @@ The steps below were taken to manage this project and reach the hello world stat
 2. Create a directory on developer computer named "mean"
 3. Open the new directory within Visual Studio Code (IDE)
 4. Create a README.md in the new directory for project information and setup steps
-5. Setup Node and Express
+5. Create .credentials.development.json to store credentials
+6. Setup Node and Express
     - Install Node on developer system from nodejs.org/en (follow installation instructions)
     - From command prompt, navigate to mean directory, then execute "npm init" and answer series of questions to create package.json
     - From command prompt, navigate to mean directory, then execute "npm install express"
-6. Setup GIT for version control
+7. Setup GIT for version control
     - Create .gitignore file in mean directory
+        - ignore node_modules
     - Install Git on developer system from https://git-scm.com/ (follow installation instructions)
     - From command prompt, navigate to mean directory, then execute "git init"
-7. Setup Github Repository to store project files
+8. Setup Github Repository to store project files
     - Install Github CLI
     - Create Github account (if one does not exist)
     - Create a repository on github to store project
@@ -53,36 +55,46 @@ The steps below were taken to manage this project and reach the hello world stat
         - Add all files (excluding gitignore items), execute "git add -A"
         - Commit files, execute "git  commit -m "(Add a message to describe commit here)"
         - Push git commit to Github "git push -u origin master"
-8. Setup Angular
+9. Setup Angular
     - (Node and NPM are required, but were already installed in step 5)
     - Install typescript from command line by executing "npm install -g typescript"
     - Install Angular CLI from command line by executing "npm install -g @angular/cli"
-    - Create new Angular project in the mean directory called "mean-stack"
-9. Build basic webpage
+    - Create new Angular project in the mean directory called "angular"
+10. Setup MongoDB Database
+    - Install MongoDB on developer system from https://www.mongodb.com/try/download/community (follow installation instructions)
+    - Add mongo to PATH
+    - Install Mongoose for object mapping by executing "npm install mongoose"
+11. Build basic webpage
     - Create components for each page
-        - From mean-stack directory, execute "ng generate component <folder>/<component name>
-        - Create home component for landing page
-        - Create contact component to act as a contact page
+        - From angular directory, execute "ng generate component <folder>/<component name>
+        - Add the compenent to the declarations in app.module
     - Add images folder to assets, then save an image to display
     - Create routes module by executing "ng generate module app-routes --flat --module=app"
     - Add routes for new pages and replace content of app.componenet.html with "<router-outlet></router-outlet>
-10. Configure API
+12. Configure API
     - Create frontend interfaces to capture data from server
-        - From mean-stack directory, execute "ng generate interface <interface name>
+        - From angular directory, execute "ng generate interface <interface name>
         - Add fields and types to the interfaces
     - Create frontend service to request data
-        - Add HttpClientModule to app.module.ts
-        - From mean-stack directory, execute "ng generate service <folder>/<service name>
+        - Add HttpClientModule and ReactiveFormsModule to app.module.ts
+        - From angular directory, execute "ng generate service <folder>/<service name>
         - Create API request with Observable in the new service
         - Add service and Observable subscription to a component so it can be used
     - Create backend module to handle API requests
+        - Install Express BodyParser middleware by executing "npm install body-parser"
+            - Add "app.use(bodyParser.urlencoded({ extended: true }))" and "app.use(express.json())" to index.js
         - Add module and API to index.js
     - Create proxy configuration file to connect frontend to backend in developer mode
-        -Add proxy.conf.json to mean-stack directory
+        -Add proxy.conf.json to angular directory
+13. Configure MongoDB to interact with backend and frontend through API
+    - Create Angular mongo component with UI to trigger API
+    - Create Angular mongo service to handle frontend requests
+    - Create Express database module named db.js to connect to MongoDB
+14. Create module to import CSV data
+    -Add CSV node module navigating to mean directory and executing "npm install csvtojson"
 
 
-90. Setup MongoDB Database
-    - Install MongoDB on developer system from https://www.mongodb.com/try/download/community (follow installation instructions)
+
 91. Build server
     - Create index.js in the mean directory
 (Remaning steps TBD)
@@ -93,7 +105,9 @@ The steps below were taken to manage this project and reach the hello world stat
 2. Start server locally
     - From command prompt, navigate to mean directory, then execute "node index.js"
 3. Serve Angular in development mode
-    - From command prompt, navigate to mean-stack directory, then execute "ng serve --proxy-config proxy.conf.json"
+    - From command prompt, navigate to angular directory, then execute "ng serve --proxy-config proxy.conf.json"
+4. Connect to MongoDB on developer system
+    - From command prompt, run "mongosh"
 
 ## Credits
 

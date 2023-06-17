@@ -1,7 +1,7 @@
-ID,name,range,elevation,latitude,longitude,standard_route,distance,gain,difficulty,photo
-1,Mount Elbert,Sawatch Range,14440,39.1178,-106.4454,Northeast Ridge ,9.5,4700,Class 1,https://www.14ers.com/photos/mtelbert/peakphotos/large/201207_Elbert01.jpg
-2,Mount Massive,Sawatch Range,14428,39.1875,-106.4757,East Slopes ,14.5,4500,Class 2,https://www.14ers.com/photos/mtmassive/peakphotos/large/200508_Massive01.jpg
-3,Mount Harvard,Sawatch Range,14421,38.9244,-106.3207,South Slopes ,14,4600,Class 2,https://www.14ers.com/photos/harvardgroup/peakphotos/large/200706_Harv01.jpg
+rank,name,range,elevation,latitude,longitude,standard_route,distance,gain,difficulty,photo
+1,Mount Elbert,Sawatch Range,14440,39.1178,-106.4454,Northeast Ridge,9.5,4700,Class 1,https://www.14ers.com/photos/mtelbert/peakphotos/large/201207_Elbert01.jpg
+2,Mount Massive,Sawatch Range,14428,39.1875,-106.4757,East Slopes,14.5,4500,Class 2,https://www.14ers.com/photos/mtmassive/peakphotos/large/200508_Massive01.jpg
+3,Mount Harvard,Sawatch Range,14421,38.9244,-106.3207,South Slopes,14,4600,Class 2,https://www.14ers.com/photos/harvardgroup/peakphotos/large/200706_Harv01.jpg
 4,Blanca Peak,Sangre de Cristo Range,14351,37.5775,-105.4856,Northwest Ridge ,17,6500,Hard Class 2,https://www.14ers.com/photos/blancagroup/peakphotos/large/200607_Blanca01.jpg
 5,La Plata Peak,Sawatch Range,14343,39.0294,-106.4729,Northwest Ridge ,9.25,4500,Class 2,https://www.14ers.com/photos/laplatapeak/peakphotos/large/201205_Lap01.jpg
 6,Uncompahgre Peak,San Juan Mountains,14321,38.0717,-107.4621,South Ridge ,7.5,3000,Class 2,https://www.14ers.com/photos/uncompahgrepeak/peakphotos/large/201710_Unco01.jpg

@@ -12,8 +12,12 @@ export class PeakService {
 
   constructor(private http: HttpClient) {}
 
-  getPeaks() : Observable<Peak[]> {
+  getPeaks(): Observable<Peak[]> {
     return this.http.get<Peak[]>('/api/peaks');
+  }
+
+  getPeakByRank(rank: number): Observable<Peak[]> {
+    return this.http.get<Peak[]>('/api/peak/' + rank);
   }
 
 }
