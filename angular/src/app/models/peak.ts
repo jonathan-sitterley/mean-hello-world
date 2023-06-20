@@ -1,5 +1,5 @@
 export interface Peak {
-    id: number;
+    rank: number;
     name: string;
     range: string;
     elevation: number;

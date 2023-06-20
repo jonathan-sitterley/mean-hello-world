@@ -9,14 +9,25 @@
   <input type="text" name="search" [(ngModel)]="peakRank">
   <button (click)="getPeakByRank()">Get Peak</button>
   <br><br>
+  <label for="users">Choose a user:</label>
+  <select [(ngModel)]="selectedUser">
+    <option default>Choose a User</option>
+    <option *ngFor="let user of users" [ngValue]="user">{{user.firstName}} {{user.lastName}}</option>
+  </select>
+  <br>Selected User: {{selectedUser | json}}<br>
+  <button (click)="updateUser()">Save Completed Peaks</button>
+  <br>
   <table>
     <thead>
       <tr>
         <th>
-          ID
+          Rank
         </th>
         <th>
           Name
+        </th>
+        <th *ngIf="selectedUser">
+          Completed?
         </th>
         <th>
           Range
@@ -50,10 +61,13 @@
     <tbody>
       <tr *ngFor="let peak of peaks">
         <td>
-          {{peak.id}}
+          {{peak.rank}}
         </td>  
         <td>
           {{peak.name}}
+        </td>  
+        <td *ngIf="selectedUser">
+          <input type="checkbox" [checked]="userCheckbox(peak.rank)" (change)="updatePeakArray(peak.rank)">
         </td>  
         <td>
           {{peak.range}}
