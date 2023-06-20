@@ -51,6 +51,7 @@ The steps below were taken to manage this project and reach the hello world stat
     - Authenticate Github on developer system (a token will need setup)
         - Navigate to the project directory and execute "gh auth login --hostname https://github.com/<owner>"
     - Link to new repository by executing: git remote add origin https://github.com/<owner>/<repo name>.git
+        - Note: Once git is configured, it will also work within Visual Studio; User may update via CLI or VS
     - Push procedure from project directory:
         - Add all files (excluding gitignore items), execute "git add -A"
         - Commit files, execute "git  commit -m "(Add a message to describe commit here)"

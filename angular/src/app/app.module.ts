@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { PeaksComponent } from './peaks/peaks.component';
 import { MongoComponent } from './mongo/mongo.component';
+import { DesignComponent } from './design/design.component';
 import { AppRoutesModule } from './app-routes.module';
 
 @NgModule({
@@ -17,6 +18,7 @@ import { AppRoutesModule } from './app-routes.module';
     ContactComponent,
     PeaksComponent,
     MongoComponent,
+    DesignComponent,
   ],
   imports: [
     BrowserModule,
