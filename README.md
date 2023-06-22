@@ -51,7 +51,7 @@ The steps below were taken to manage this project and reach the hello world stat
     - Authenticate Github on developer system (a token will need setup)
         - Navigate to the project directory and execute "gh auth login --hostname https://github.com/<owner>"
     - Link to new repository by executing: git remote add origin https://github.com/<owner>/<repo name>.git
-        - Note: Once git is configured, it will also work within Visual Studio; User may update via CLI or VS
+        - Note: Once git is configured, it will also work within Visual Studio; User may update via CLI or IDE
     - Push procedure from project directory:
         - Add all files (excluding gitignore items), execute "git add -A"
         - Commit files, execute "git  commit -m "(Add a message to describe commit here)"
@@ -93,12 +93,12 @@ The steps below were taken to manage this project and reach the hello world stat
     - Create Express database module named db.js to connect to MongoDB
 14. Create module to import CSV data
     -Add CSV node module navigating to mean directory and executing "npm install csvtojson"
-
-
-
-91. Build server
-    - Create index.js in the mean directory
-(Remaning steps TBD)
+15. Production Build
+    - Setup Angular deployment path by updating the "outputPath" in angular.json to "../app/"
+    - Navigate to angular folder and execute "ng build --base-href /app/"
+    - Update express index.js to serve angular production build
+        - Command to serve static files in angular production folder
+        - Command to route to angular index.html in angular production folder
 
 ## Usage
 
@@ -109,6 +109,8 @@ The steps below were taken to manage this project and reach the hello world stat
     - From command prompt, navigate to angular directory, then execute "ng serve --proxy-config proxy.conf.json"
 4. Connect to MongoDB on developer system
     - From command prompt, run "mongosh"
+5. Run Express servier and Angular production build locally
+    - Once it has been configured, only the server will need to be started by running "node index.js" from the server directory
 
 ## Credits
 

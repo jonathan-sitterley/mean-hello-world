@@ -10,9 +10,10 @@ app.use(express.json())
 
 const port = process.env.PORT || 3000
 
+app.use('/app', express.static('app'));
+
 app.get('/', (req, res) => {
-    res.type('text/plain')
-    res.send('MEAN Hello World Homepage')
+    res.sendFile('app/index.html' , { root : __dirname});
 })
 
 app.get('/api/resetCollections', handlers.resetCollections)

@@ -1,6 +1,6 @@
 <div>
     <div>
-      <span><a href="/">Home</a></span>
+      <span><a routerLink="/">Home</a></span><br>
     </div>
     <h2>
         Peaks:
@@ -14,7 +14,6 @@
     <option default>Choose a User</option>
     <option *ngFor="let user of users" [ngValue]="user">{{user.firstName}} {{user.lastName}}</option>
   </select>
-  <br>Selected User: {{selectedUser | json}}<br>
   <button (click)="updateUser()">Save Completed Peaks</button>
   <br>
   <table>
