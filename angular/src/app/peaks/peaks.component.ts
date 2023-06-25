@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 
 import { PeakService } from '../services/peak.service';
 import { UserService } from '../services/user.service';
-import { RestUtilityService } from '../services/rest-utility.service';
 import { Peak } from '../models/peak';
 import { IUser, User } from '../models/user';
 
@@ -19,8 +18,7 @@ export class PeaksComponent implements OnInit {
   public selectedUser!: IUser;
 
   constructor(private peakService: PeakService, 
-              private userService: UserService,
-              private restUtilityService: RestUtilityService) {}
+              private userService: UserService) {}
 
   ngOnInit() {
     this.getUsers();
@@ -46,7 +44,7 @@ export class PeaksComponent implements OnInit {
 
   updateUser() {
     console.log('Update user: ' + JSON.stringify(this.selectedUser));
-    console.log(this.restUtilityService.updateUser(this.selectedUser).subscribe((response: any) => {
+    console.log(this.userService.updateUser(this.selectedUser).subscribe((response: any) => {
       let result = response;
       console.log(result);
     }));
@@ -67,6 +65,12 @@ export class PeaksComponent implements OnInit {
     } else {
       this.selectedUser.fourteenerArray.push(rank)
     }
+  }
+
+  resetPeaks() {
+    console.log(this.peakService.resetPeaks().subscribe((response: any) => {
+      console.log(response);
+    }));
   }
 
 }

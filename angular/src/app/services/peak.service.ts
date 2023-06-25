@@ -20,4 +20,8 @@ export class PeakService {
     return this.http.get<Peak[]>('/api/peak/' + rank);
   }
 
+  resetPeaks() : Observable<any> {
+    return this.http.get<any>('/api/resetPeakCollection');
+  }
+
 }

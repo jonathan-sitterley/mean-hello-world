@@ -16,7 +16,8 @@ app.get('/', (req, res) => {
     res.sendFile('app/index.html' , { root : __dirname});
 })
 
-app.get('/api/resetCollections', handlers.resetCollections)
+app.get('/api/resetUserCollection', handlers.resetUserCollection)
+app.get('/api/resetPeakCollection', handlers.resetPeakCollection)
 
 app.post('/api/createUser', handlers.createUser)
 app.get('/api/peaks', handlers.getPeaks)

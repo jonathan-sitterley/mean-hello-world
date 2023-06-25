@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MongoComponent } from './mongo.component';
+import { UsersComponent } from './users.component';
 
-describe('MongoComponent', () => {
-  let component: MongoComponent;
-  let fixture: ComponentFixture<MongoComponent>;
+describe('UsersComponent', () => {
+  let component: UsersComponent;
+  let fixture: ComponentFixture<UsersComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [MongoComponent]
+      declarations: [UsersComponent]
     });
-    fixture = TestBed.createComponent(MongoComponent);
+    fixture = TestBed.createComponent(UsersComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,25 +1,24 @@
 import { Component } from '@angular/core';
 
-import { RestUtilityService } from '../services/rest-utility.service';
 import { UserService } from '../services/user.service';
 import { User, IUser } from '../models/user';
 
 @Component({
-  selector: 'app-mongo',
-  templateUrl: './mongo.component.html',
-  styleUrls: ['./mongo.component.css']
+  selector: 'app-users',
+  templateUrl: './users.component.html',
+  styleUrls: ['./users.component.css']
 })
-export class MongoComponent {
+export class UsersComponent {
 
   public userInput: User = new User("","","");
   public users: IUser[] = [];
 
-  constructor(private restUtilityService: RestUtilityService, private userService: UserService) {}
+  constructor(private userService: UserService) {}
 
 
-  resetCollections() {
+  resetUsers() {
     let result = "";
-    console.log(this.restUtilityService.resetCollections().subscribe((response: any) => {
+    console.log(this.userService.resetUsers().subscribe((response: any) => {
       result = response;
       console.log(result);
     }));
@@ -28,7 +27,7 @@ export class MongoComponent {
   createUser() {
     let newUser = new User(this.userInput.firstName, this.userInput.lastName, this.userInput.email)
     console.log('Create new user: ' + JSON.stringify(newUser));
-    console.log(this.restUtilityService.createUser(newUser).subscribe((response: any) => {
+    console.log(this.userService.createUser(newUser).subscribe((response: any) => {
       let result = response;
       console.log(result);
     }));
@@ -37,7 +36,7 @@ export class MongoComponent {
   updateUser() {
     let updateUser = new User(this.userInput.firstName, this.userInput.lastName, this.userInput.email)
     console.log('Update user: ' + JSON.stringify(updateUser));
-    console.log(this.restUtilityService.updateUser(updateUser).subscribe((response: any) => {
+    console.log(this.userService.updateUser(updateUser).subscribe((response: any) => {
       let result = response;
       console.log(result);
     }));
@@ -46,7 +45,7 @@ export class MongoComponent {
   deleteUser() {
     let deleteUser = new User(this.userInput.firstName, this.userInput.lastName, this.userInput.email)
     console.log('Delete user: ' + JSON.stringify(deleteUser));
-    console.log(this.restUtilityService.deleteUser(deleteUser).subscribe((response: any) => {
+    console.log(this.userService.deleteUser(deleteUser).subscribe((response: any) => {
       let result = response;
       console.log(result);
     }));

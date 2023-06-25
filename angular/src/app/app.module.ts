@@ -5,9 +5,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
 import { PeaksComponent } from './peaks/peaks.component';
-import { MongoComponent } from './mongo/mongo.component';
+import { UsersComponent } from './users/users.component';
 import { DesignComponent } from './design/design.component';
 import { AppRoutesModule } from './app-routes.module';
 
@@ -15,9 +14,8 @@ import { AppRoutesModule } from './app-routes.module';
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactComponent,
     PeaksComponent,
-    MongoComponent,
+    UsersComponent,
     DesignComponent,
   ],
   imports: [

@@ -3,10 +3,12 @@
       <span><a routerLink="/">Home</a></span><br>
     </div>
     <h2>
-        Peaks:
-    </h2>
-  <button (click)="getPeaks()">Get Peaks</button>
-  <input type="text" name="search" [(ngModel)]="peakRank">
+      Peak Interface
+  </h2>
+  <button (click)="resetPeaks()">Reset Peak Collection</button><br><br>
+  <hr>
+  <button (click)="getPeaks()">Get Peaks</button><br>
+  <input type="text" name="search" placeholder="Search for Peak by Rank" [(ngModel)]="peakRank">
   <button (click)="getPeakByRank()">Get Peak</button>
   <br><br>
   <label for="users">Choose a user:</label>
@@ -16,7 +18,7 @@
   </select>
   <button (click)="updateUser()">Save Completed Peaks</button>
   <br>
-  <table>
+  <table *ngIf="peaks.length > 0">
     <thead>
       <tr>
         <th>
