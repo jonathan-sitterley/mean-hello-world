@@ -14,7 +14,7 @@ What this project does NOT include (yet):
 - The use of modern UI, such as Bootstrap
 - Containerization (such as docker)
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Developer Tools](#developer-tools)
 - [Cloning Instructions](#cloning-and-setup)
