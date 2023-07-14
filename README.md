@@ -8,13 +8,21 @@ The purpose of this project is to create a minimalist MEAN stack hello-world:
 - To learn about configurations that are required to reach a locally hosted full stack hosted website
 - A functioning full stack development project with a database, frontend SPA, and backend scripting
 
+What this project does NOT include (yet):
+
+- Significant error handling on backend or frontend
+- The use of modern UI, such as Bootstrap
+- Containerization (such as docker)
+
 ## Table of Contents (Optional)
 
-- [Developer Tools](#tools)
-- [Installation](#installation)
+- [Developer Tools](#developer-tools)
+- [Cloning Instructions](#cloning-and-setup)
+- [How the Project was Built](#build-history)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Testing](#tests)
 
 ## Developer Tools
 
@@ -27,7 +35,31 @@ The purpose of this project is to create a minimalist MEAN stack hello-world:
 - Frontend Framework: Angular
 - Backend Code: Node
 
-## Installation and Setup
+## Cloning and Setup
+
+Follow the steps below to clone the respository and view the webpage locally
+1. Clone the repository from Github
+    - Go the 'master' branch of the repository
+    - Click code and 'Download Zip'
+    - Unzip the files into a folder of your choosing (this will be your project directory)
+2. Download Node from https://nodejs.org/en
+    - Follow installation instructions
+3. From command prompt, navigate to the project directory, then execute "npm install express"
+    - This will update the node_modules, which were not included in the respository
+4. Download MongoDB from https://www.mongodb.com/try/download/community
+    - Follow installation instructions
+5. In the command prompt, install the Angular CLI by executing "npm install -g @angular/cli"
+    - If Angular commands do not work (ex: ng serve), try 'npm install @angular-devkit/build-angular --force' from the command prompt
+6. To run in development mode
+    - From command prompt, navigate to the project directory, then execute "node index.js"
+    - From a new command prompt, navigate to the project's Angular directory, then execute "ng serve --proxy-config proxy.conf.json"
+    - In a browser, navigate to http://localhost:4200/
+4. To run in production mode
+    - From command prompt, navigate to the project's Angular directory and execute "ng build --base-href /app/"
+    - From command prompt, navigate to the project directory, then execute "node index.js"
+    - In a browser, navigate to http://localhost:3000/
+
+## Build History
 
 The steps below were taken to manage this project and reach the hello world state:
 1. Set up a Trello board for task management: https://trello.com/b/nTZWOi2L/mean-hello-world
@@ -36,7 +68,7 @@ The steps below were taken to manage this project and reach the hello world stat
 4. Create a README.md in the new directory for project information and setup steps
 5. Create .credentials.development.json to store credentials
 6. Setup Node and Express
-    - Install Node on developer system from nodejs.org/en (follow installation instructions)
+    - Install Node on developer system from https://nodejs.org/en (follow installation instructions)
     - From command prompt, navigate to mean directory, then execute "npm init" and answer series of questions to create package.json
     - From command prompt, navigate to mean directory, then execute "npm install express"
 7. Setup GIT for version control
@@ -57,7 +89,7 @@ The steps below were taken to manage this project and reach the hello world stat
         - Commit files, execute "git  commit -m "(Add a message to describe commit here)"
         - Push git commit to Github "git push -u origin master"
 9. Setup Angular
-    - (Node and NPM are required, but were already installed in step 5)
+    - (Node and NPM are required, but were already installed in step 6)
     - Install typescript from command line by executing "npm install -g typescript"
     - Install Angular CLI from command line by executing "npm install -g @angular/cli"
     - Create new Angular project in the mean directory called "angular"
@@ -109,7 +141,7 @@ The steps below were taken to manage this project and reach the hello world stat
     - From command prompt, navigate to angular directory, then execute "ng serve --proxy-config proxy.conf.json"
 4. Connect to MongoDB on developer system
     - From command prompt, run "mongosh"
-5. Run Express servier and Angular production build locally
+5. Run Express server and Angular production build locally
     - Once it has been configured, only the server will need to be started by running "node index.js" from the server directory
 
 ## Credits
@@ -145,4 +177,4 @@ SOFTWARE.
 
 ## Tests
 
-To test this project, run through all of the installation and steps and validate that a functional MEAN stack is set up correctly.
+To test this project, run through all of the cloning instructions and validate that a functional MEAN stack is set up correctly.
