@@ -1,52 +1,61 @@
-<div>
-    <div>
-      <span><a routerLink="/">Home</a></span><br>
-    </div>
-    <h2>
-        User Interface
-    </h2>
-    <button (click)="resetUsers()">Reset User Collection</button><br><br>
-</div>
-<hr>
-<div>
-  <h2>User Creation</h2>
-  <div class="new-user">
-    <input type="text" placeholder="First Name" name="firstName" [(ngModel)]="userInput.firstName">
-    <input type="text" placeholder="Last Name" name="lastName" [(ngModel)]="userInput.lastName">
-    <input type="text" placeholder="Email" name="email" [(ngModel)]="userInput.email">
+<div class="p-5">
+  <div>
+      <div>
+        <span><a routerLink="/">Home</a></span><br>
+      </div>
+      <h2>
+          User Interface
+      </h2>
+      <button type="button" class="btn btn-primary btn-sm" (click)="resetUsers()">Reset User Collection</button><br><br>
   </div>
-  <button (click)="createUser()">Create User</button>
-  <button (click)="updateUser()">Update User by Email</button>
-  <button (click)="deleteUser()">Delete User by Email</button>
+  <hr>
+  <div>
+    <h2>User Creation</h2>
+    <div class="new-user">
+      <input type="text" placeholder="First Name" name="firstName" [(ngModel)]="userInput.firstName">
+      <span class="p-2"></span>
+      <input type="text" placeholder="Last Name" name="lastName" [(ngModel)]="userInput.lastName">
+      <span class="p-2"></span>
+      <input type="text" placeholder="Email" name="email" [(ngModel)]="userInput.email">
+      <span class="p-2"></span>
+      <button type="button" class="btn btn-primary btn-sm" (click)="createUser()">Create User</button>
+      <span class="p-2"></span>
+      <button type="button" class="btn btn-primary btn-sm" (click)="updateUser()">Update User by Email</button>
+      <span class="p-2"></span>
+      <button type="button" class="btn btn-primary btn-sm" (click)="deleteUser()">Delete User by Email</button>
+    </div>
+  </div>
+  <hr>
+  <button type="button" class="btn btn-primary btn-sm" (click)="getUsers()">Get Users</button>
+      <br><br>
+      <div class="table-responsive" style="max-height: 400px">
+        <table *ngIf="users.length > 0" class="table table-striped">
+          <thead>
+            <tr>
+              <th>
+                First Name
+              </th>
+              <th>
+                Last Name
+              </th>
+              <th>
+                Email
+              </th>
+            </tr>
+          </thead>  
+          <tbody>
+            <tr *ngFor="let user of users">
+              <td>
+                {{user.firstName}}
+              </td>  
+              <td>
+                {{user.lastName}}
+              </td>  
+              <td>
+                {{user.email}}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>  
 </div>
-<hr>
-<button (click)="getUsers()">Get Users</button>
-    <br><br>
-    <table *ngIf="users.length > 0">
-      <thead>
-        <tr>
-          <th>
-            First Name
-          </th>
-          <th>
-            Last Name
-          </th>
-          <th>
-            Email
-          </th>
-        </tr>
-      </thead>  
-      <tbody>
-        <tr *ngFor="let user of users">
-          <td>
-            {{user.firstName}}
-          </td>  
-          <td>
-            {{user.lastName}}
-          </td>  
-          <td>
-            {{user.email}}
-          </td>
-        </tr>
-      </tbody>
-    </table> 

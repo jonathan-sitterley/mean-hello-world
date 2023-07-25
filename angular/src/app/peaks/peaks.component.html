@@ -1,104 +1,114 @@
-<div>
+<div class="p-5">
     <div>
       <span><a routerLink="/">Home</a></span><br>
     </div>
     <h2>
       Peak Interface
   </h2>
-  <button (click)="resetPeaks()">Reset Peak Collection</button><br><br>
+  <button type="button" class="btn btn-primary btn-sm" (click)="resetPeaks()">Reset Peak Collection</button><br><br>
   <hr>
-  <button (click)="getPeaks()">Get Peaks</button><br>
-  <input type="text" name="search" placeholder="Search for Peak by Rank" [(ngModel)]="peakRank">
-  <button (click)="getPeakByRank()">Get Peak</button>
-  <br><br>
+  <button type="button" class="btn btn-primary" (click)="getPeaks()">Get Peaks</button><br><br>
+
+  <div class="input-group mb-3" style="max-width: 30%">
+    <input type="text" class="form-control" placeholder="Search for Peak by Rank" aria-label="Peak Rank" aria-describedby="basic-addon2" [(ngModel)]="peakRank">
+    <div class="input-group-append">
+      <button class="btn btn-primary" type="button" (click)="getPeakByRank()">Get Peak</button>
+    </div>
+  </div>
+  
+  <br>
   <label for="users">Choose a user:</label>
+  <span class="p-2"></span>
   <select [(ngModel)]="selectedUser">
     <option default>Choose a User</option>
     <option *ngFor="let user of users" [ngValue]="user">{{user.firstName}} {{user.lastName}}</option>
   </select>
-  <button (click)="updateUser()">Save Completed Peaks</button>
-  <br>
-  <table *ngIf="peaks.length > 0">
-    <thead>
-      <tr>
-        <th>
-          Rank
-        </th>
-        <th>
-          Name
-        </th>
-        <th *ngIf="selectedUser">
-          Completed?
-        </th>
-        <th>
-          Range
-        </th>
-        <th>
-          Elevation
-        </th>
-        <th>
-          Latitude
-        </th>
-        <th>
-          Longitude
-        </th>
-        <th>
-          Standard Route
-        </th>
-        <th>
-          Distance
-        </th>
-        <th>
-          Gain
-        </th>
-        <th>
-          Difficulty
-        </th>
-        <th>
-          Photo
-        </th>
-      </tr>
-    </thead>  
-    <tbody>
-      <tr *ngFor="let peak of peaks">
-        <td>
-          {{peak.rank}}
-        </td>  
-        <td>
-          {{peak.name}}
-        </td>  
-        <td *ngIf="selectedUser">
-          <input type="checkbox" [checked]="userCheckbox(peak.rank)" (change)="updatePeakArray(peak.rank)">
-        </td>  
-        <td>
-          {{peak.range}}
-        </td>  
-        <td>
-          {{peak.elevation}}
-        </td>  
-        <td>
-          {{peak.latitude}}
-        </td>  
-        <td>
-          {{peak.longitude}}
-        </td>  
-        <td>
-          {{peak.standard_route}}
-        </td>  
-        <td>
-          {{peak.distance}}
-        </td>  
-        <td>
-          {{peak.gain}}
-        </td>  
-        <td>
-          {{peak.difficulty}}
-        </td>  
-        <td>
-          {{peak.photo}}
-        </td>  
-      </tr>
-    </tbody>
-  </table>  
+  <span class="p-2"></span>
+  <button type="button" class="btn btn-primary btn-sm" (click)="updateUser()" *ngIf="selectedUser && peaks.length > 0">Save Completed Peaks</button>
+  <br><br>
+  <div class="table-responsive" style="max-height: 400px">
+    <table *ngIf="peaks.length > 0" class="table table-striped">
+      <thead>
+        <tr>
+          <th>
+            Rank
+          </th>
+          <th>
+            Name
+          </th>
+          <th *ngIf="selectedUser">
+            Completed?
+          </th>
+          <th>
+            Range
+          </th>
+          <th>
+            Elevation
+          </th>
+          <th>
+            Latitude
+          </th>
+          <th>
+            Longitude
+          </th>
+          <th>
+            Standard Route
+          </th>
+          <th>
+            Distance
+          </th>
+          <th>
+            Gain
+          </th>
+          <th>
+            Difficulty
+          </th>
+          <th>
+            Photo
+          </th>
+        </tr>
+      </thead>  
+      <tbody>
+        <tr *ngFor="let peak of peaks">
+          <th scope="row">
+            {{peak.rank}}
+          </th>  
+          <td>
+            {{peak.name}}
+          </td>  
+          <td *ngIf="selectedUser">
+            <input type="checkbox" [checked]="userCheckbox(peak.rank)" (change)="updatePeakArray(peak.rank)">
+          </td>  
+          <td>
+            {{peak.range}}
+          </td>  
+          <td>
+            {{peak.elevation}}
+          </td>  
+          <td>
+            {{peak.latitude}}
+          </td>  
+          <td>
+            {{peak.longitude}}
+          </td>  
+          <td>
+            {{peak.standard_route}}
+          </td>  
+          <td>
+            {{peak.distance}}
+          </td>  
+          <td>
+            {{peak.gain}}
+          </td>  
+          <td>
+            {{peak.difficulty}}
+          </td>  
+          <td>
+            <a href="{{peak.photo}}" target="_blank">Photo</a>
+          </td>  
+        </tr>
+      </tbody>
+    </table>
+  </div>  
 
 </div>
