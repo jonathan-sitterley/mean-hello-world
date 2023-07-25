@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { PeaksComponent } from './peaks/peaks.component';
 import { UsersComponent } from './users/users.component';
 import { DesignComponent } from './design/design.component';
+import { HeaderComponent } from './header/header.component';
 import { AppRoutesModule } from './app-routes.module';
 
 @NgModule({
@@ -17,6 +18,7 @@ import { AppRoutesModule } from './app-routes.module';
     PeaksComponent,
     UsersComponent,
     DesignComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
