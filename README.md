@@ -30,6 +30,7 @@ The purpose of this project is to add the following to Phase 1 Hello-World
 - Backend Code: Node
 - Docker Containers
 - Bootstrap
+- Winton (backend logging)
 
 ## Cloning and Setup
 
@@ -46,11 +47,13 @@ Follow the steps below to clone the respository and view the webpage locally
     - Follow installation instructions
 5. In the command prompt, install the Angular CLI by executing "npm install -g @angular/cli"
     - If Angular commands do not work (ex: ng serve), try 'npm install @angular-devkit/build-angular --force' from the command prompt
-6. To run in development mode
+6. Create file to set environment variables
+    - In an IDE, open the file "env.template.bat", set variables for your system, and save as a new file named "env.bat" (see file for instructions)
+7. To run in development mode
     - From command prompt, navigate to the project directory, then execute "node index.js"
     - From a new command prompt, navigate to the project's Angular directory, then execute "ng serve --proxy-config proxy.conf.json"
     - In a browser, navigate to http://localhost:4200/
-4. To run in production mode
+8. To run in production mode
     - From command prompt, navigate to the project's Angular directory and execute "ng build --base-href /app/"
     - From command prompt, navigate to the project directory, then execute "node index.js"
     - In a browser, navigate to http://localhost:3000/
@@ -68,18 +71,30 @@ The steps below were taken to manage this project and reach the hello world stat
     - From the Angular directory, execute "npm install bootstrap@5.3.0"
     - Add CSS and JS to angular.json file
     - Implement classes on buttons, text, links, and tables
+    - Implement navigation bar
+4. Backend logging
+    - Install Winston with "npm install winston"
+    - Create loggingService.js to configure Winston logging
+        - Import new service into each Express module
+    - Create batch file to store log level environment variable
+        - Add batch file to .gitignore (env.template.bat can be used as a template to create a env.bat for the users environment)
+    - Add log files to Winston configuration
+        - Add log files to .gitignore
+    - Add exception and rejection handlers to Winston with log export files
 
 ## Usage
 
 1. Complete all of the installation and setup steps
-2. Start server locally
+2. Set environment variables
+    - From command prompt, navigate to mean directory, then execute "env.bat"
+3. Start server locally
     - From command prompt, navigate to mean directory, then execute "node index.js"
     - To include debug logging execute "set DEBUG=express:* & node index.js"
-3. Serve Angular in development mode
+4. Serve Angular in development mode
     - From command prompt, navigate to angular directory, then execute "ng serve --proxy-config proxy.conf.json"
-4. Connect to MongoDB on developer system
+5. Connect to MongoDB on developer system
     - From command prompt, run "mongosh"
-5. Run Express server and Angular production build locally
+6. Run Express server and Angular production build locally
     - Once it has been configured, only the server will need to be started by running "node index.js" from the server directory
 
 ## Credits
