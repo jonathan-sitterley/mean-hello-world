@@ -3,5 +3,5 @@
 
 echo Setting project environment variables
 
-set LOG_LEVEL=info
+set LOG_LEVEL=http
 set MEAN_BASEDIR=<set for your enviroment; ex: C:\Users\name\Desktop\mean>

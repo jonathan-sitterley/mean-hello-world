@@ -3,11 +3,13 @@ const bodyParser = require('body-parser')
 
 const handlers = require('./lib/handlers')
 const logger = require('./lib/loggingService.js').logger
+const morganMiddleware = require('./lib/loggingService.js').morganMiddleware
 
 const app = express()
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.json())
+app.use(morganMiddleware)
 
 const port = process.env.PORT || 3000
 
