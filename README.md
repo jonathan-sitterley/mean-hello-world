@@ -82,7 +82,9 @@ The steps below were taken to manage this project and reach the hello world stat
         - Add log files to .gitignore
     - Add exception and rejection handlers to Winston with log export files
     - Add Morgan for HTTP logging
-        Install Morgan with "npm install morgan"
+        - Install Morgan with "npm install morgan"
+        - Add Morgan to loggingService.js and index.js
+    - Created restService to handle success, warning, and error handlers
 
 ## Usage
 

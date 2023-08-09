@@ -47,10 +47,6 @@ app.use((err, req, res, next) => {
     res.send('500 - Server Error')
 })
 
-logger.info('Info message');
-logger.error('Error message');
-logger.warn('Warning message');
-
 app.listen(port, () => logger.info(
     `Express started on http://localhost:${port}; ` +
     `press Ctrl-C to terminate.`))

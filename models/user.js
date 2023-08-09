@@ -1,9 +1,12 @@
 const mongoose = require('mongoose')
 
-const userSchema = mongoose.Schema({
+const userSchema = new mongoose.Schema({
     lastName: String,
     firstName: String,
-    email: String,
+    email: {
+        type: String,
+        unique: true,
+    },
     active: Boolean,
     fourteenerArray: [Number],
 })

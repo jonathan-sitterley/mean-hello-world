@@ -22,6 +22,7 @@ export class UsersComponent {
       result = response;
       console.log(result);
     }));
+    this.getUsers();
   }
 
   createUser() {
@@ -31,6 +32,7 @@ export class UsersComponent {
       let result = response;
       console.log(result);
     }));
+    this.getUsers();
   }
 
   updateUser() {
@@ -40,6 +42,7 @@ export class UsersComponent {
       let result = response;
       console.log(result);
     }));
+    this.getUsers();
   }
 
   deleteUser() {
@@ -49,6 +52,7 @@ export class UsersComponent {
       let result = response;
       console.log(result);
     }));
+    this.getUsers();
   }
 
   getUsers() {
