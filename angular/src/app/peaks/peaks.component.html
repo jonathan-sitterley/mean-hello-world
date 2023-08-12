@@ -1,7 +1,14 @@
 <app-header></app-header>
 <div class="p-5">
-    <h2>
-      Peak Interface
+  
+  <div style="height: 80px">
+    <div *ngIf="notificationService.notification.show" class='alert {{notificationService.notification.level}}' role='alert'>
+      {{notificationService.notification.message}}
+    </div>
+  </div>
+  
+  <h2>
+    Peak Interface
   </h2>
   <button type="button" class="btn btn-primary btn-sm" (click)="resetPeaks()">Reset Peak Collection</button><br><br>
   <hr>

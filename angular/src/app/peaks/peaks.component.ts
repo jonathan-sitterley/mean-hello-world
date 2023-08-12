@@ -2,8 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 import { PeakService } from '../services/peak.service';
 import { UserService } from '../services/user.service';
+import { NotificationService } from '../services/notification.service';
 import { Peak } from '../models/peak';
 import { IUser, User } from '../models/user';
+import { Notification } from '../models/notification';
 
 @Component({
   selector: 'app-peaks',
@@ -18,7 +20,9 @@ export class PeaksComponent implements OnInit {
   public selectedUser!: IUser;
 
   constructor(private peakService: PeakService, 
-              private userService: UserService) {}
+              private userService: UserService,
+              public notificationService: NotificationService,
+              ) {}
 
   ngOnInit() {
     this.getUsers();
