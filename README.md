@@ -88,6 +88,11 @@ The steps below were taken to manage this project and reach the hello world stat
     - Implemented logging rotation to limit the size of log files
         - Install Winston log rotation by navigating to base directory and executing "npm install winston-daily-rotate-file"
         - Update logging transports to use DailyRotateFile
+5. Frontend Notifications
+    - Create Angular notification class to hold notification attributes
+    - Create Angular notification service to update notification and set log levels
+    - Add Bootstrap alert to pages to display the notification
+    - Add Bootstrap spinner to indicate if REST call is in-progress
 
 ## Usage
 

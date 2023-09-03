@@ -5,7 +5,6 @@ import { UserService } from '../services/user.service';
 import { NotificationService } from '../services/notification.service';
 import { Peak } from '../models/peak';
 import { IUser, User } from '../models/user';
-import { Notification } from '../models/notification';
 
 @Component({
   selector: 'app-peaks',
@@ -29,30 +28,31 @@ export class PeaksComponent implements OnInit {
   }
 
   getPeaks() {
-    console.log(this.peakService.getPeaks().subscribe(peaks => {
+    this.notificationService.spinner();
+    console.log(this.peakService.getPeaks(this.notificationService).subscribe(peaks => {
       this.peaks = peaks;
     }));
   }
 
   getPeakByRank() {
-    console.log(this.peakService.getPeakByRank(this.peakRank).subscribe(peaks => {
+    this.notificationService.spinner();
+    console.log(this.peakService.getPeakByRank(this.peakRank, this.notificationService).subscribe(peaks => {
       this.peaks = peaks;
     }));
   }
 
   getUsers() {
-    console.log(this.userService.getUsers().subscribe(users => {
+    this.notificationService.spinner();
+    console.log(this.userService.getUsers(this.notificationService).subscribe(users => {
       this.users = users;
     }));
   }
 
   updateUser() {
+    this.notificationService.spinner();
     console.log('Update user: ' + JSON.stringify(this.selectedUser));
-    console.log(this.userService.updateUser(this.selectedUser).subscribe((response: any) => {
-      let result = response;
-      console.log(result);
-    }));
-  }
+    this.userService.updateUser(this.selectedUser, this.notificationService)
+    }
 
   userCheckbox(rank: number) {
     if (this.selectedUser.fourteenerArray.includes(rank)) {
@@ -72,8 +72,9 @@ export class PeaksComponent implements OnInit {
   }
 
   resetPeaks() {
-    console.log(this.peakService.resetPeaks().subscribe((response: any) => {
-      console.log(response);
+    this.notificationService.spinner();
+    console.log(this.peakService.resetPeaks(this.notificationService).subscribe((response: any) => {
+      this.peaks = [];
     }));
   }
 

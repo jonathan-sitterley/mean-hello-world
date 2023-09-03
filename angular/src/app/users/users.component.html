@@ -1,5 +1,13 @@
 <app-header></app-header>
 <div class="p-5">
+
+  <div style="height: 80px">
+    <div *ngIf="notificationService.notification.spinner" class="spinner-border" role="status"></div>
+    <div *ngIf="notificationService.notification.show" class='alert {{notificationService.notification.level}}' role='alert'>
+      {{notificationService.notification.message}}
+    </div>
+  </div>
+
   <div>
       <h2>
           User Interface

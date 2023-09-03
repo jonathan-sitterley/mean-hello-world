@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 import { UserService } from '../services/user.service';
 import { User, IUser } from '../models/user';
+import { NotificationService } from '../services/notification.service';
 
 @Component({
   selector: 'app-users',
@@ -13,50 +14,49 @@ export class UsersComponent {
   public userInput: User = new User("","","");
   public users: IUser[] = [];
 
-  constructor(private userService: UserService) {}
+  constructor(private userService: UserService,
+              public notificationService: NotificationService,
+              ) {}
 
 
   resetUsers() {
     let result = "";
-    console.log(this.userService.resetUsers().subscribe((response: any) => {
-      result = response;
-      console.log(result);
-    }));
-    this.getUsers();
+    this.notificationService.spinner();
+    this.userService.resetUsers(this.notificationService).subscribe((response: any) => {
+      this.getUsers();
+    });
   }
 
   createUser() {
+    this.notificationService.spinner();
     let newUser = new User(this.userInput.firstName, this.userInput.lastName, this.userInput.email)
     console.log('Create new user: ' + JSON.stringify(newUser));
-    console.log(this.userService.createUser(newUser).subscribe((response: any) => {
-      let result = response;
-      console.log(result);
-    }));
-    this.getUsers();
+    this.userService.createUser(newUser, this.notificationService).subscribe((response: any) => {
+      this.getUsers();
+    });
+
   }
 
   updateUser() {
+    this.notificationService.spinner();
     let updateUser = new User(this.userInput.firstName, this.userInput.lastName, this.userInput.email)
     console.log('Update user: ' + JSON.stringify(updateUser));
-    console.log(this.userService.updateUser(updateUser).subscribe((response: any) => {
-      let result = response;
-      console.log(result);
-    }));
-    this.getUsers();
+    this.userService.updateUser(updateUser, this.notificationService).subscribe((response: any) => {
+      this.getUsers();
+    });
   }
 
   deleteUser() {
+    this.notificationService.spinner();
     let deleteUser = new User(this.userInput.firstName, this.userInput.lastName, this.userInput.email)
     console.log('Delete user: ' + JSON.stringify(deleteUser));
-    console.log(this.userService.deleteUser(deleteUser).subscribe((response: any) => {
-      let result = response;
-      console.log(result);
-    }));
-    this.getUsers();
+    this.userService.deleteUser(deleteUser, this.notificationService).subscribe((response: any) => {
+      this.getUsers();
+    });
   }
 
   getUsers() {
-    console.log(this.userService.getUsers().subscribe(users => {
+    console.log(this.userService.getUsers(this.notificationService).subscribe(users => {
       this.users = users;
     }));
   }
