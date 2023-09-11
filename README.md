@@ -30,7 +30,7 @@ The purpose of this project is to add the following to Phase 1 Hello-World
 - Backend Code: Node
 - Docker Containers
 - Bootstrap
-- Winton (backend logging)
+- Winston (backend logging)
 
 ## Cloning and Setup
 
@@ -93,6 +93,7 @@ The steps below were taken to manage this project and reach the hello world stat
     - Create Angular notification service to update notification and set log levels
     - Add Bootstrap alert to pages to display the notification
     - Add Bootstrap spinner to indicate if REST call is in-progress
+    - Implement success and error handling for each type of http call
 
 ## Usage
 
