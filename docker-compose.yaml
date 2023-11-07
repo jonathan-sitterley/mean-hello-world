@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    depends_on:
+      - mongodb
+    build:
+      dockerfile: "./Dockerfile"
+    ports:
+      - '3000:3000'
+    environment:
+      - DB_HOST=mongodb
+      - DB_PORT=27017
+  mongodb:
+    image: mongo:latest
+    ports:
+      - '27017:27017'
+    volumes:
+      - db:/data/db
+
+volumes:
+  db:

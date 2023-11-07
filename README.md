@@ -94,6 +94,24 @@ The steps below were taken to manage this project and reach the hello world stat
     - Add Bootstrap alert to pages to display the notification
     - Add Bootstrap spinner to indicate if REST call is in-progress
     - Implement success and error handling for each type of http call
+6. Docker Compose Setup
+    - Install Docker Engine Binary
+        - Download binary files from https://download.docker.com/win/static/stable/x86_64/
+        - Extract all to Program Files destination
+        - Register and start the dockerd service
+    - Install Docker Desktop
+    - Upgrade to Windows Pro to enable use of hyper-V
+        - Enable hyper-v and containers in windows
+    - Create Dockerfile
+    - Build the Docker image
+        - ensure that Docker or Docker Desktop is running (if unable to run, shutdown dockerd and restart)
+        - From the project directory run "docker build -t mean ."
+    - Start the Container
+        - From the project directory run "docker run -dp 127.0.0.1:3000:3000 mean"
+    - Create docker compose file
+        - Update mongodb connection host and port with environment variables
+        - Set add environment variables in env.bat
+        - Set environment variables in docker-compose file; host name must equal mongo service name and db port must match mongo service port
 
 ## Usage
 
