@@ -104,29 +104,29 @@ The steps below were taken to manage this project and reach the hello world stat
         - Enable hyper-v and containers in windows
     - Create Dockerfile
     - Build the Docker image
-        - ensure that Docker or Docker Desktop is running (if unable to run, shutdown dockerd and restart)
+        - Ensure that Docker or Docker Desktop is running (if unable to run, shutdown dockerd and restart)
         - From the project directory run "docker build -t mean ."
-    - Start the Container
-        - From the project directory run "docker run -dp 127.0.0.1:3000:3000 mean"
     - Create docker compose file
         - Update mongodb connection host and port with environment variables
-        - Set add environment variables in env.bat
-        - Set environment variables in docker-compose file; host name must equal mongo service name and db port must match mongo service port
+        - Set environment variables in env.bat
+        - Set environment variables in docker-compose file (host name must equal mongo service name and db port must match mongo service port)
 
 ## Usage
 
 1. Complete all of the installation and setup steps
 2. Set environment variables
     - From command prompt, navigate to mean directory, then execute "env.bat"
-3. Start server locally
-    - From command prompt, navigate to mean directory, then execute "node index.js"
-    - To include debug logging execute "set DEBUG=express:* & node index.js"
-4. Serve Angular in development mode
-    - From command prompt, navigate to angular directory, then execute "ng serve --proxy-config proxy.conf.json"
-5. Connect to MongoDB on developer system
+3. Optional: Connect to MongoDB on developer system to review data and troubleshoot
     - From command prompt, run "mongosh"
-6. Run Express server and Angular production build locally
-    - Once it has been configured, only the server will need to be started by running "node index.js" from the server directory
+4. Choose an option below to run the application:
+    - (A)Run application locally in development mode
+        - Express: From command prompt, navigate to mean directory, then execute "node index.js"
+            - To include debug logging execute "set DEBUG=express:* & node index.js"
+        - Angular: From command prompt, navigate to angular directory, then execute "ng serve --proxy-config proxy.conf.json"
+    - (B)Run Express server and Angular in production mode locally
+        - Once it has been configured, only the server will need to be started by running "node index.js" from the server directory
+    - (C)Run the full application in a container with Docker Compose
+        - From command prompt, navigate to project directory and run "docker compose up -d"
 
 ## Credits
 
