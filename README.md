@@ -46,17 +46,17 @@ Follow the steps below to clone the respository and view the webpage locally
 4. Download MongoDB from https://www.mongodb.com/try/download/community
     - Follow installation instructions
 5. In the command prompt, install the Angular CLI by executing "npm install -g @angular/cli"
-    - If Angular commands do not work (ex: ng serve), try 'npm install @angular-devkit/build-angular --force' from the command prompt
+    - Note: If Angular commands do not work (ex: ng serve), try 'npm install @angular-devkit/build-angular --force' from the command prompt
 6. Create file to set environment variables
     - In an IDE, open the file "env.template.bat", set variables for your system, and save as a new file named "env.bat" (see file for instructions)
 7. To run in development mode
     - From command prompt, navigate to the project directory, then execute "node index.js"
     - From a new command prompt, navigate to the project's Angular directory, then execute "ng serve --proxy-config proxy.conf.json"
-    - In a browser, navigate to http://localhost:4200/
+    - To validate, open a browser and navigate to http://localhost:4200/
 8. To run in production mode
     - From command prompt, navigate to the project's Angular directory and execute "ng build --base-href /app/"
     - From command prompt, navigate to the project directory, then execute "node index.js"
-    - In a browser, navigate to http://localhost:3000/
+    - To validate, open a browser and navigate to http://localhost:3000/
 
 ## Build History
 
@@ -110,21 +110,22 @@ The steps below were taken to manage this project and reach the hello world stat
         - Update mongodb connection host and port with environment variables
         - Set environment variables in env.bat
         - Set environment variables in docker-compose file (host name must equal mongo service name and db port must match mongo service port)
+        - Add restart policy to docker-compose to use docker as a process manager 
 
 ## Usage
 
 1. Complete all of the installation and setup steps
 2. Set environment variables
-    - From command prompt, navigate to mean directory, then execute "env.bat"
+    - From command prompt, navigate to mean directory, then execute "env.bat" (this must be run after every windows reboot and before the server is started)
 3. Optional: Connect to MongoDB on developer system to review data and troubleshoot
     - From command prompt, run "mongosh"
 4. Choose an option below to run the application:
-    - (A)Run application locally in development mode
+    - (A)Run application locally in development mode.  Using this will restart both Express and Angular after every code change.
         - Express: From command prompt, navigate to mean directory, then execute "node index.js"
             - To include debug logging execute "set DEBUG=express:* & node index.js"
         - Angular: From command prompt, navigate to angular directory, then execute "ng serve --proxy-config proxy.conf.json"
     - (B)Run Express server and Angular in production mode locally
-        - Once it has been configured, only the server will need to be started by running "node index.js" from the server directory
+        - Once it has been configured (see cloning and setup section), only the server will need to be started by running "node index.js" from the server directory
     - (C)Run the full application in a container with Docker Compose
         - From command prompt, navigate to project directory and run "docker compose up -d"
 

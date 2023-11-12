@@ -30,6 +30,12 @@ app.get('/api/peak/:rank', handlers.getPeakByRank)
 app.post('/api/updateUser', handlers.updateUserByEmail)
 app.delete('/api/user/:email', handlers.deleteUserByEmail)
 
+//Endpoint to test a server crash
+app.get('/crash', (req, res) => {
+    res.send('Crashing server!');
+    process.exit(1);
+  });
+
 //custom 404 page
 app.use((req, res) => {
     logger.warn('Page not found. Returning 404.');
