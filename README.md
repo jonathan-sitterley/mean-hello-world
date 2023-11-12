@@ -110,7 +110,8 @@ The steps below were taken to manage this project and reach the hello world stat
         - Update mongodb connection host and port with environment variables
         - Set environment variables in env.bat
         - Set environment variables in docker-compose file (host name must equal mongo service name and db port must match mongo service port)
-        - Add restart policy to docker-compose to use docker as a process manager 
+        - Add restart policy to docker-compose to use docker as a process manager
+        - Persist data by adding a volume
 
 ## Usage
 
@@ -120,19 +121,28 @@ The steps below were taken to manage this project and reach the hello world stat
 3. Optional: Connect to MongoDB on developer system to review data and troubleshoot
     - From command prompt, run "mongosh"
 4. Choose an option below to run the application:
-    - (A)Run application locally in development mode.  Using this will restart both Express and Angular after every code change.
+    - (A)Dev Mode: Run application locally in development mode.  Using this will restart both Express and Angular after every code change.
         - Express: From command prompt, navigate to mean directory, then execute "node index.js"
             - To include debug logging execute "set DEBUG=express:* & node index.js"
         - Angular: From command prompt, navigate to angular directory, then execute "ng serve --proxy-config proxy.conf.json"
-    - (B)Run Express server and Angular in production mode locally
+    - (B)Production: Run Express server and Angular in production mode locally
         - Once it has been configured (see cloning and setup section), only the server will need to be started by running "node index.js" from the server directory
-    - (C)Run the full application in a container with Docker Compose
-        - From command prompt, navigate to project directory and run "docker compose up -d"
+    - (C)Container: Run the full application in a container with Docker Compose
+        - From command prompt, navigate to project directory and run "docker-compose up" (with logging) or "docker-compose up -d" (run in background)
+5. To stop the application
+    - In any terminal window if logging is actively running, use "Ctrl-C"
+    - For docker-compose use "docker-compose down"
 
 ## Credits
 
 Resources used to build this project:
 - "Web Development with Node & Express: Leveraging the JavaScript Stack" by Ethan Brown, OReilly Books
+- "Angular Up & Running" by Shyam Seshadri, OReilly Books
+- "MongoDB: The Definitive Guide" by Kristina Chadorow, OReilly Books
+- Docker: https://docs.docker.com/get-started/
+- Winston: https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/
+- Git CLI: https://cli.github.com/manual/
+- Mongoose: https://mongoosejs.com/docs/connections.html
 
 ## License
 
