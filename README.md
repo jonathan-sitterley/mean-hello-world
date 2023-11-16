@@ -65,7 +65,7 @@ The steps below were taken to manage this project and reach the hello world stat
     - Started project state from phase 1 "1-hello-world"
     - Add all files (excluding gitignore items), execute "git add -A"
     - Commit files, execute "git commit -m "(Add a message to describe commit here)"
-    - Push git commit to Github "git push -u origin 2-container"
+    - Push git commit to Github "git push -u origin 3-robotics"
 2. Updated Trello with tasks for phase 2
 3. Install Bootstrap
     - From the Angular directory, execute "npm install bootstrap@5.3.0"
