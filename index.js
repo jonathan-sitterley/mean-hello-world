@@ -30,6 +30,8 @@ app.get('/api/peak/:rank', handlers.getPeakByRank)
 app.post('/api/updateUser', handlers.updateUserByEmail)
 app.delete('/api/user/:email', handlers.deleteUserByEmail)
 
+app.post('/api/robotics', handlers.postCommand)
+
 //Endpoint to test a server crash
 app.get('/crash', (req, res) => {
     res.send('Crashing server!');

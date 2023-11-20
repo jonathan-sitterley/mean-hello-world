@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PeaksComponent } from './peaks/peaks.component';
 import { UsersComponent } from './users/users.component';
+import { RoboticsComponent } from './robotics/robotics.component';
 import { DesignComponent } from './design/design.component';
 import { HeaderComponent } from './header/header.component';
 import { AppRoutesModule } from './app-routes.module';
@@ -16,6 +17,7 @@ import { AppRoutesModule } from './app-routes.module';
     AppComponent,
     HomeComponent,
     PeaksComponent,
+    RoboticsComponent,
     UsersComponent,
     DesignComponent,
     HeaderComponent,

@@ -62,56 +62,16 @@ Follow the steps below to clone the respository and view the webpage locally
 
 The steps below were taken to manage this project and reach the hello world state:
 1. GitHub Setup
-    - Started project state from phase 1 "1-hello-world"
+    - Started project state from phase 2 "2-container"
+    - Create new branch by going to base directory and execute "git branch 3-robotics"
+    - Use new branch, execute "git checkout 3-robotics
     - Add all files (excluding gitignore items), execute "git add -A"
     - Commit files, execute "git commit -m "(Add a message to describe commit here)"
     - Push git commit to Github "git push -u origin 3-robotics"
-2. Updated Trello with tasks for phase 2
-3. Install Bootstrap
-    - From the Angular directory, execute "npm install bootstrap@5.3.0"
-    - Add CSS and JS to angular.json file
-    - Implement classes on buttons, text, links, and tables
-    - Implement navigation bar
-4. Backend logging
-    - Install Winston with "npm install winston"
-    - Create loggingService.js to configure Winston logging
-        - Import new service into each Express module
-    - Create batch file to store log level environment variable
-        - Add batch file to .gitignore (env.template.bat can be used as a template to create a env.bat for the users environment)
-    - Add log files to Winston configuration
-        - Add log files to .gitignore
-    - Add exception and rejection handlers to Winston with log export files
-    - Add Morgan for HTTP logging
-        - Install Morgan by navigating to base directory and executing "npm install morgan"
-        - Add Morgan to loggingService.js and index.js
-    - Created restService to handle success, warning, and error handlers
-    - Implemented logging rotation to limit the size of log files
-        - Install Winston log rotation by navigating to base directory and executing "npm install winston-daily-rotate-file"
-        - Update logging transports to use DailyRotateFile
-5. Frontend Notifications
-    - Create Angular notification class to hold notification attributes
-    - Create Angular notification service to update notification and set log levels
-    - Add Bootstrap alert to pages to display the notification
-    - Add Bootstrap spinner to indicate if REST call is in-progress
-    - Implement success and error handling for each type of http call
-6. Docker Compose Setup
-    - Install Docker Engine Binary
-        - Download binary files from https://download.docker.com/win/static/stable/x86_64/
-        - Extract all to Program Files destination
-        - Register and start the dockerd service
-    - Install Docker Desktop
-    - Upgrade to Windows Pro to enable use of hyper-V
-        - Enable hyper-v and containers in windows
-    - Create Dockerfile
-    - Build the Docker image
-        - Ensure that Docker or Docker Desktop is running (if unable to run, shutdown dockerd and restart)
-        - From the project directory run "docker build -t mean ."
-    - Create docker compose file
-        - Update mongodb connection host and port with environment variables
-        - Set environment variables in env.bat
-        - Set environment variables in docker-compose file (host name must equal mongo service name and db port must match mongo service port)
-        - Add restart policy to docker-compose to use docker as a process manager
-        - Persist data by adding a volume
+2. Updated Trello with tasks for phase 3
+3. Create Webpage for robotics user interface
+    - Create new Angular component; add to app.module.ts; add link to header; add link to routes
+    - Create URL endpint in index.js; set up handler script
 
 ## Usage
 
@@ -129,7 +89,12 @@ The steps below were taken to manage this project and reach the hello world stat
         - Once it has been configured (see cloning and setup section), only the server will need to be started by running "node index.js" from the server directory
     - (C)Container: Run the full application in a container with Docker Compose
         - From command prompt, navigate to project directory and run "docker-compose up" (with logging) or "docker-compose up -d" (run in background)
-5. To stop the application
+5. To rebuild docker images
+    - Make sure to stop the application "docker-compose down"
+    - Open Docker and delete the images
+    - From directory execute "docker build -t mean ." to publish application changes to a new image
+    - Rebuild the docker-compose environment with "docker-compse up -d"
+6. To stop the application
     - In any terminal window if logging is actively running, use "Ctrl-C"
     - For docker-compose use "docker-compose down"
 
