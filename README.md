@@ -1,12 +1,12 @@
-# MEAN Fullstack: Phase 2 Container Automation
+# MEAN Fullstack: Phase 3 Robotics
 ## Description
 
-The purpose of this project is to add the following to Phase 1 Hello-World
+The purpose of this project is to add the following to Phase 2 Container Automation
 
-- Frontend and backend error handling
-- A modern UI using bootstrap and other tools
-- Export the project to a docker container
-- Create scripts to automate the containerization
+- Frontend command UI
+- Server endpoint to receive commands
+- Server service to transmit commands to offboard microcontroller
+- Microcontroller to receive commands and transmit to peripherals
 
 ## Table of Contents
 
