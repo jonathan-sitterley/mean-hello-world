@@ -69,22 +69,33 @@ The steps below were taken to manage this project and reach the hello world stat
     - Commit files, execute "git commit -m "(Add a message to describe commit here)"
     - Push git commit to Github "git push -u origin 3-robotics"
 2. Updated Trello with tasks for phase 3
-3. Create Webpage for robotics user interface
+3. Frontend robotics user interface
     - Create new Angular component; add to app.module.ts; add link to header; add link to routes
     - Create URL endpint in index.js; set up handler script
+4. Arduino setup
+    - Install Arduino IDE from https://www.arduino.cc/en/software
+    - Wrote basic program to receive, parse, execute, and confirm commands
+    - Upload to Arduino board and test
+5. Create Arduino service in Express
+    - Install Serialport by executing "npm install serialport"
+        - Optional: install Serialport-list to find details about available ports
+            - From directory "npm install -g @serialport/list", then execute "serialport-list -f json"
+    - Create arduinoService.js Express service to handle Arduino communication
 
 ## Usage
 
 1. Complete all of the installation and setup steps
 2. Set environment variables
     - From command prompt, navigate to mean directory, then execute "env.bat" (this must be run after every windows reboot and before the server is started)
-3. Optional: Connect to MongoDB on developer system to review data and troubleshoot
-    - From command prompt, run "mongosh"
+3. Start MongoDB if it is not already running
+    - From command prompt in any directory, run "mongod"
+    - Optional: Connect to MongoDB on developer system to review data and troubleshoot by running "mongosh"
 4. Choose an option below to run the application:
     - (A)Dev Mode: Run application locally in development mode.  Using this will restart both Express and Angular after every code change.
         - Express: From command prompt, navigate to mean directory, then execute "node index.js"
             - To include debug logging execute "set DEBUG=express:* & node index.js"
         - Angular: From command prompt, navigate to angular directory, then execute "ng serve --proxy-config proxy.conf.json"
+        - The ng serve default url is localhost:4200
     - (B)Production: Run Express server and Angular in production mode locally
         - Once it has been configured (see cloning and setup section), only the server will need to be started by running "node index.js" from the server directory
     - (C)Container: Run the full application in a container with Docker Compose
