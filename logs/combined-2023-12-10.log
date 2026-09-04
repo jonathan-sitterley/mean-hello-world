@@ -1,0 +1,544 @@
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T16:40:10.123Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T16:42:16.169Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T16:42:16.188Z"}
+{"level":"info","message":"Routing to index","timestamp":"2023-12-10T16:43:36.848Z"}
+{"level":"http","message":"GET / 200 5060 - 13.050 ms","timestamp":"2023-12-10T16:43:36.864Z"}
+{"level":"http","message":"GET /app/runtime.05aca6fe40cab408.js 200 898 - 2.574 ms","timestamp":"2023-12-10T16:43:36.886Z"}
+{"level":"http","message":"GET /app/polyfills.c1d8ef842c09c294.js 200 33782 - 3.329 ms","timestamp":"2023-12-10T16:43:36.895Z"}
+{"level":"http","message":"GET /app/main.71ef574b66373b14.js 200 265230 - 4.135 ms","timestamp":"2023-12-10T16:43:36.898Z"}
+{"level":"http","message":"GET /app/scripts.7042ff42b5d30fa8.js 200 59714 - 2.840 ms","timestamp":"2023-12-10T16:43:36.941Z"}
+{"level":"http","message":"GET /app/styles.5bf5aea1214ddd3b.css 200 225905 - 3.965 ms","timestamp":"2023-12-10T16:43:36.944Z"}
+{"level":"http","message":"GET /app/assets/images/longs_peak.jpg 200 176411 - 15.797 ms","timestamp":"2023-12-10T16:43:37.080Z"}
+{"level":"http","message":"GET /app/favicon.ico 200 948 - 1.406 ms","timestamp":"2023-12-10T16:43:37.097Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:45:43.685Z"}
+{"error":{},"level":"error","message":"Post command failed","timestamp":"2023-12-10T16:45:43.687Z"}
+{"level":"http","message":"POST /api/robotics 500 33 - 3.246 ms","timestamp":"2023-12-10T16:45:43.689Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:45:43.691Z"}
+{"error":{},"level":"error","message":"Post command failed","timestamp":"2023-12-10T16:45:43.692Z"}
+{"level":"http","message":"POST /api/robotics 500 33 - 2.205 ms","timestamp":"2023-12-10T16:45:43.693Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T16:47:35.210Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T16:47:35.220Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:47:39.894Z"}
+{"level":"info","message":"Command received","result":{"message":"0"},"timestamp":"2023-12-10T16:47:39.895Z"}
+{"level":"http","message":"POST /api/robotics 200 30 - 2.649 ms","timestamp":"2023-12-10T16:47:39.898Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:47:39.899Z"}
+{"error":{"code":"ERR_HTTP_HEADERS_SENT"},"level":"error","message":"Post command failed","timestamp":"2023-12-10T16:47:39.901Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:47:39.908Z"}
+{"level":"info","message":"Command received","result":{"message":"0"},"timestamp":"2023-12-10T16:47:39.909Z"}
+{"level":"http","message":"POST /api/robotics 200 30 - 2.814 ms","timestamp":"2023-12-10T16:47:39.911Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:47:39.911Z"}
+{"error":{"code":"ERR_HTTP_HEADERS_SENT"},"level":"error","message":"Post command failed","timestamp":"2023-12-10T16:47:39.912Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T16:50:11.947Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T16:50:11.956Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:50:17.450Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:50:17.454Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:50:18.142Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:50:18.144Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:50:57.027Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:50:57.028Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:56:05.589Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:56:09.970Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:56:09.974Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:56:10.488Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:56:10.490Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:56:10.939Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:56:10.941Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T16:57:01.798Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T16:57:01.808Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:57:08.324Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:57:08.325Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 4.651 ms","timestamp":"2023-12-10T16:57:08.331Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:57:08.335Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:57:08.337Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.932 ms","timestamp":"2023-12-10T16:57:08.338Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:57:11.627Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:57:11.627Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.718 ms","timestamp":"2023-12-10T16:57:11.628Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:57:11.630Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:57:11.630Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 0.985 ms","timestamp":"2023-12-10T16:57:11.631Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T16:58:50.925Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T16:58:50.934Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:58:54.537Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:58:54.538Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 4.371 ms","timestamp":"2023-12-10T16:58:54.544Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:58:54.549Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:58:54.549Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.413 ms","timestamp":"2023-12-10T16:58:54.551Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:58:56.938Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:58:56.939Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.539 ms","timestamp":"2023-12-10T16:58:56.939Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:58:56.941Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:58:56.942Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.305 ms","timestamp":"2023-12-10T16:58:56.942Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T16:59:31.777Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T16:59:31.786Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:59:47.817Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:59:47.818Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 5.320 ms","timestamp":"2023-12-10T16:59:47.825Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:59:47.832Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:59:47.832Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.386 ms","timestamp":"2023-12-10T16:59:47.834Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:59:49.549Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:59:49.550Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.987 ms","timestamp":"2023-12-10T16:59:49.551Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T16:59:49.553Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T16:59:49.554Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.629 ms","timestamp":"2023-12-10T16:59:49.555Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:00:42.178Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:00:42.187Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:00:45.512Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:00:45.514Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 4.751 ms","timestamp":"2023-12-10T17:00:45.520Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:00:45.524Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:00:45.525Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.494 ms","timestamp":"2023-12-10T17:00:45.526Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:00:46.635Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:00:46.636Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.005 ms","timestamp":"2023-12-10T17:00:46.637Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:00:46.638Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:00:46.639Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.179 ms","timestamp":"2023-12-10T17:00:46.640Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:01:39.740Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:01:39.750Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:01:43.388Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:01:43.389Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 3.532 ms","timestamp":"2023-12-10T17:01:43.396Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:01:43.401Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:01:43.402Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.541 ms","timestamp":"2023-12-10T17:01:43.403Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:01:44.857Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:01:44.857Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.837 ms","timestamp":"2023-12-10T17:01:44.859Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:01:44.862Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:01:44.863Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.238 ms","timestamp":"2023-12-10T17:01:44.864Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:03:21.662Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:03:21.671Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:03:25.153Z"}
+{"error":{},"level":"error","message":"Post command failed","timestamp":"2023-12-10T17:03:25.154Z"}
+{"level":"http","message":"POST /api/robotics 500 33 - 4.248 ms","timestamp":"2023-12-10T17:03:25.160Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:03:25.165Z"}
+{"error":{},"level":"error","message":"Post command failed","timestamp":"2023-12-10T17:03:25.166Z"}
+{"level":"http","message":"POST /api/robotics 500 33 - 2.563 ms","timestamp":"2023-12-10T17:03:25.168Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:03:56.212Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:03:56.222Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:03:59.518Z"}
+{"level":"info","message":{"result":{}},"timestamp":"2023-12-10T17:03:59.518Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:03:59.519Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 3.564 ms","timestamp":"2023-12-10T17:03:59.523Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:03:59.527Z"}
+{"level":"info","message":{"result":{}},"timestamp":"2023-12-10T17:03:59.527Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:03:59.528Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.565 ms","timestamp":"2023-12-10T17:03:59.529Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:04:49.555Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:04:49.566Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:04:52.208Z"}
+{"level":"info","message":"result: ","timestamp":"2023-12-10T17:04:52.209Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:04:52.210Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 5.515 ms","timestamp":"2023-12-10T17:04:52.217Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:04:52.222Z"}
+{"level":"info","message":"result: ","timestamp":"2023-12-10T17:04:52.223Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:04:52.223Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.783 ms","timestamp":"2023-12-10T17:04:52.224Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:05:00.275Z"}
+{"level":"info","message":"result: ","timestamp":"2023-12-10T17:05:00.276Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:05:00.276Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.302 ms","timestamp":"2023-12-10T17:05:00.277Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:05:00.279Z"}
+{"level":"info","message":"result: ","timestamp":"2023-12-10T17:05:00.280Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:05:00.280Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.429 ms","timestamp":"2023-12-10T17:05:00.281Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:05:44.550Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:05:44.560Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:05:47.263Z"}
+{"level":"info","message":"req body: ","timestamp":"2023-12-10T17:05:47.264Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:05:47.265Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 5.329 ms","timestamp":"2023-12-10T17:05:47.270Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:05:47.275Z"}
+{"level":"info","message":"req body: ","timestamp":"2023-12-10T17:05:47.275Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:05:47.276Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.271 ms","timestamp":"2023-12-10T17:05:47.277Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:05:51.425Z"}
+{"level":"info","message":"req body: ","timestamp":"2023-12-10T17:05:51.426Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:05:51.426Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.458 ms","timestamp":"2023-12-10T17:05:51.427Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:05:51.428Z"}
+{"level":"info","message":"req body: ","timestamp":"2023-12-10T17:05:51.428Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:05:51.429Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.464 ms","timestamp":"2023-12-10T17:05:51.430Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:06:52.449Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:06:52.459Z"}
+{"level":"info","message":"req body: ","timestamp":"2023-12-10T17:06:55.568Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:06:55.570Z"}
+{"level":"info","message":"req body: ","timestamp":"2023-12-10T17:06:55.571Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:06:55.571Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 7.809 ms","timestamp":"2023-12-10T17:06:55.579Z"}
+{"level":"info","message":"req body: ","timestamp":"2023-12-10T17:06:55.582Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:06:55.583Z"}
+{"level":"info","message":"req body: ","timestamp":"2023-12-10T17:06:55.583Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:06:55.584Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.825 ms","timestamp":"2023-12-10T17:06:55.585Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:16:43.369Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:16:43.378Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:16:51.211Z"}
+{"level":"info","message":"req body: ","timestamp":"2023-12-10T17:16:51.212Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:16:51.212Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 8.188 ms","timestamp":"2023-12-10T17:16:51.218Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:16:51.222Z"}
+{"level":"info","message":"req body: ","timestamp":"2023-12-10T17:16:51.223Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:16:51.224Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 3.416 ms","timestamp":"2023-12-10T17:16:51.225Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:21:51.328Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:21:51.337Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:22:06.932Z"}
+{"level":"info","message":"req body: ","timestamp":"2023-12-10T17:22:06.934Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:22:06.934Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 32.635 ms","timestamp":"2023-12-10T17:22:06.940Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:22:06.954Z"}
+{"level":"info","message":"req body: ","timestamp":"2023-12-10T17:22:06.955Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:22:06.956Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 13.327 ms","timestamp":"2023-12-10T17:22:06.957Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:28:59.084Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:28:59.095Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:29:06.353Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:29:06.354Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:29:06.355Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 10.575 ms","timestamp":"2023-12-10T17:29:06.362Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:29:06.373Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:29:06.374Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:29:06.374Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 5.008 ms","timestamp":"2023-12-10T17:29:06.375Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:29:09.181Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:29:09.182Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:29:09.183Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 3.819 ms","timestamp":"2023-12-10T17:29:09.184Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:29:09.186Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:29:09.186Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:29:09.187Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.743 ms","timestamp":"2023-12-10T17:29:09.188Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:29:43.212Z"}
+{"armed":true,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:29:43.213Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:29:43.213Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.235 ms","timestamp":"2023-12-10T17:29:43.214Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:29:43.216Z"}
+{"armed":true,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:29:43.216Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:29:43.217Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.781 ms","timestamp":"2023-12-10T17:29:43.218Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:29:44.189Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:29:44.189Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:29:44.190Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.510 ms","timestamp":"2023-12-10T17:29:44.190Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:29:44.192Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:29:44.192Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:29:44.193Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.397 ms","timestamp":"2023-12-10T17:29:44.194Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:29:44.923Z"}
+{"armed":true,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:29:44.923Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:29:44.923Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.341 ms","timestamp":"2023-12-10T17:29:44.924Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:29:44.925Z"}
+{"armed":true,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:29:44.925Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:29:44.926Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.551 ms","timestamp":"2023-12-10T17:29:44.927Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:29:45.871Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:29:45.872Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:29:45.872Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.509 ms","timestamp":"2023-12-10T17:29:45.873Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:29:45.874Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:29:45.874Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:29:45.874Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 0.998 ms","timestamp":"2023-12-10T17:29:45.876Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:30:34.664Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:30:34.674Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:30:55.426Z"}
+{"armed":true,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:30:55.428Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:30:55.430Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 8.742 ms","timestamp":"2023-12-10T17:30:55.437Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:30:55.446Z"}
+{"armed":true,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:30:55.446Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:30:55.447Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.245 ms","timestamp":"2023-12-10T17:30:55.448Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:30:55.796Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:30:55.797Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:30:55.797Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.608 ms","timestamp":"2023-12-10T17:30:55.798Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:30:55.798Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:30:55.799Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:30:55.799Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.500 ms","timestamp":"2023-12-10T17:30:55.800Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:31:03.400Z"}
+{"armed":true,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:31:03.401Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:31:03.401Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.474 ms","timestamp":"2023-12-10T17:31:03.403Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:31:03.405Z"}
+{"armed":true,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:31:03.405Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:31:03.406Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.454 ms","timestamp":"2023-12-10T17:31:03.406Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:31:11.258Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:31:11.268Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:31:19.585Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:31:19.586Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:31:19.587Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 5.967 ms","timestamp":"2023-12-10T17:31:19.594Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:31:19.598Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:31:19.599Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:31:19.599Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.974 ms","timestamp":"2023-12-10T17:31:19.600Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:31:22.531Z"}
+{"armed":true,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:31:22.532Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:31:22.532Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.136 ms","timestamp":"2023-12-10T17:31:22.533Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:31:22.535Z"}
+{"armed":true,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:31:22.536Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:31:22.536Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.517 ms","timestamp":"2023-12-10T17:31:22.537Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:31:34.976Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:31:34.976Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:31:34.977Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.720 ms","timestamp":"2023-12-10T17:31:34.978Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:31:34.979Z"}
+{"armed":false,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:31:34.979Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:31:34.979Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 0.877 ms","timestamp":"2023-12-10T17:31:34.980Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:33:13.745Z"}
+{"armed":true,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:33:13.745Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:33:13.746Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.307 ms","timestamp":"2023-12-10T17:33:13.746Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:33:13.748Z"}
+{"armed":true,"level":"info","message":"req body:  foo","timestamp":"2023-12-10T17:33:13.748Z"}
+{"level":"info","message":"Post command success","result":{},"timestamp":"2023-12-10T17:33:13.748Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.072 ms","timestamp":"2023-12-10T17:33:13.749Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:34:21.010Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:34:21.019Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:34:24.484Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T17:34:24.485Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 4.589 ms","timestamp":"2023-12-10T17:34:24.490Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:34:24.497Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T17:34:24.498Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 3.501 ms","timestamp":"2023-12-10T17:34:24.499Z"}
+{"level":"info","message":"Attempting to get users","timestamp":"2023-12-10T17:35:17.092Z"}
+{"level":"info","message":"Get users success","result":[{"__v":0,"_id":"651860b88e62c3cee65d9cb7","email":"johndoe@hotmail.com","firstName":"John","fourteenerArray":[],"lastName":"Doe"},{"__v":0,"_id":"651860b88e62c3cee65d9cb6","email":"janedoe@hotmail.com","firstName":"Jane","fourteenerArray":[],"lastName":"Doe"},{"__v":0,"_id":"6518618b8e62c3cee65d9d3c","active":true,"email":"j@s.com","firstName":"j","fourteenerArray":[],"lastName":"s"}],"timestamp":"2023-12-10T17:35:17.121Z"}
+{"level":"http","message":"GET /api/users 200 388 - 32.173 ms","timestamp":"2023-12-10T17:35:17.125Z"}
+{"level":"info","message":"Attempting to get users","timestamp":"2023-12-10T17:35:17.131Z"}
+{"level":"info","message":"Get users success","result":[{"__v":0,"_id":"651860b88e62c3cee65d9cb7","email":"johndoe@hotmail.com","firstName":"John","fourteenerArray":[],"lastName":"Doe"},{"__v":0,"_id":"651860b88e62c3cee65d9cb6","email":"janedoe@hotmail.com","firstName":"Jane","fourteenerArray":[],"lastName":"Doe"},{"__v":0,"_id":"6518618b8e62c3cee65d9d3c","active":true,"email":"j@s.com","firstName":"j","fourteenerArray":[],"lastName":"s"}],"timestamp":"2023-12-10T17:35:17.136Z"}
+{"level":"http","message":"GET /api/users 304 - - 6.677 ms","timestamp":"2023-12-10T17:35:17.138Z"}
+{"level":"info","message":"Get peaks success","result":{},"timestamp":"2023-12-10T17:35:22.980Z"}
+{"level":"http","message":"GET /api/peaks 200 19810 - 46.450 ms","timestamp":"2023-12-10T17:35:22.995Z"}
+{"level":"info","message":"Get peaks success","result":{},"timestamp":"2023-12-10T17:35:23.015Z"}
+{"level":"http","message":"GET /api/peaks 304 - - 21.045 ms","timestamp":"2023-12-10T17:35:23.023Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:36:31.682Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T17:36:31.682Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.402 ms","timestamp":"2023-12-10T17:36:31.684Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:36:31.687Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T17:36:31.687Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.043 ms","timestamp":"2023-12-10T17:36:31.688Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:36:32.094Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T17:36:32.095Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.112 ms","timestamp":"2023-12-10T17:36:32.096Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:36:32.098Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T17:36:32.099Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.435 ms","timestamp":"2023-12-10T17:36:32.100Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:56:05.271Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:56:05.290Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:56:11.133Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T17:56:11.146Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 15.806 ms","timestamp":"2023-12-10T17:56:11.151Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:56:11.155Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T17:56:11.157Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 3.486 ms","timestamp":"2023-12-10T17:56:11.158Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:57:03.078Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:57:03.091Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:57:05.403Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T17:57:05.404Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 4.380 ms","timestamp":"2023-12-10T17:57:05.408Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:57:05.411Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T17:57:05.412Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.743 ms","timestamp":"2023-12-10T17:57:05.412Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:57:25.369Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:57:25.381Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:57:27.532Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:57:27.535Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T17:57:27.535Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 5.381 ms","timestamp":"2023-12-10T17:57:27.538Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T17:57:27.539Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 5.207 ms","timestamp":"2023-12-10T17:57:27.540Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T17:59:07.327Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T17:59:07.346Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:59:15.122Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T17:59:15.123Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 6.654 ms","timestamp":"2023-12-10T17:59:15.129Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T17:59:15.133Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T17:59:15.134Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.414 ms","timestamp":"2023-12-10T17:59:15.135Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T18:00:10.870Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:00:10.888Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:00:13.107Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:00:13.110Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:00:13.111Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 6.289 ms","timestamp":"2023-12-10T18:00:13.116Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:00:13.118Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 9.238 ms","timestamp":"2023-12-10T18:00:13.119Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T18:01:05.537Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:01:05.550Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:01:12.404Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:01:12.405Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 4.453 ms","timestamp":"2023-12-10T18:01:12.409Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:01:12.413Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:01:12.414Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.861 ms","timestamp":"2023-12-10T18:01:12.415Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:03:11.367Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:03:59.641Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:04:37.366Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T18:05:03.594Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:05:03.610Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:05:13.426Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:05:13.431Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:05:13.432Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 8.547 ms","timestamp":"2023-12-10T18:05:13.436Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:05:13.437Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 8.556 ms","timestamp":"2023-12-10T18:05:13.439Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T18:16:32.174Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:16:32.192Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:16:40.763Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:16:40.774Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 14.805 ms","timestamp":"2023-12-10T18:16:40.779Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:16:40.782Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:16:40.782Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.784 ms","timestamp":"2023-12-10T18:16:40.783Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:16:42.510Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:16:42.511Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.992 ms","timestamp":"2023-12-10T18:16:42.513Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:16:42.519Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:16:42.520Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.788 ms","timestamp":"2023-12-10T18:16:42.521Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:16:44.557Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:16:44.559Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 4.086 ms","timestamp":"2023-12-10T18:16:44.563Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:16:44.592Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:16:44.595Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 4.557 ms","timestamp":"2023-12-10T18:16:44.597Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:16:46.333Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:16:46.334Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.367 ms","timestamp":"2023-12-10T18:16:46.335Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:16:46.338Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:16:46.338Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.276 ms","timestamp":"2023-12-10T18:16:46.339Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T18:19:05.790Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:19:05.803Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:19:10.294Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:19:10.295Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 3.613 ms","timestamp":"2023-12-10T18:19:10.300Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:19:10.305Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:19:10.306Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.513 ms","timestamp":"2023-12-10T18:19:10.306Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:19:12.383Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:19:12.385Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 3.045 ms","timestamp":"2023-12-10T18:19:12.387Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:19:12.391Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:19:12.393Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.874 ms","timestamp":"2023-12-10T18:19:12.394Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T18:20:08.461Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:20:08.471Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:20:12.625Z"}
+{"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Post command failed","timestamp":"2023-12-10T18:20:12.627Z"}
+{"level":"http","message":"POST /api/robotics 500 33 - 5.344 ms","timestamp":"2023-12-10T18:20:12.632Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:20:12.637Z"}
+{"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Post command failed","timestamp":"2023-12-10T18:20:12.638Z"}
+{"level":"http","message":"POST /api/robotics 500 33 - 2.808 ms","timestamp":"2023-12-10T18:20:12.639Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:20:17.790Z"}
+{"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Post command failed","timestamp":"2023-12-10T18:20:17.792Z"}
+{"level":"http","message":"POST /api/robotics 500 33 - 3.311 ms","timestamp":"2023-12-10T18:20:17.794Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:20:17.798Z"}
+{"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Post command failed","timestamp":"2023-12-10T18:20:17.799Z"}
+{"level":"http","message":"POST /api/robotics 500 33 - 2.111 ms","timestamp":"2023-12-10T18:20:17.800Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T18:20:55.512Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:20:55.529Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:20:59.658Z"}
+{"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Post command failed","timestamp":"2023-12-10T18:20:59.659Z"}
+{"level":"http","message":"POST /api/robotics 500 33 - 4.500 ms","timestamp":"2023-12-10T18:20:59.664Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:20:59.670Z"}
+{"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Post command failed","timestamp":"2023-12-10T18:20:59.671Z"}
+{"level":"http","message":"POST /api/robotics 500 33 - 2.724 ms","timestamp":"2023-12-10T18:20:59.672Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T18:21:18.115Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:21:18.127Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:21:23.701Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:21:23.703Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 5.198 ms","timestamp":"2023-12-10T18:21:23.707Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:21:23.710Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:21:23.711Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.596 ms","timestamp":"2023-12-10T18:21:23.711Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:21:25.406Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:21:25.407Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.883 ms","timestamp":"2023-12-10T18:21:25.408Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:21:25.412Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:21:25.413Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.737 ms","timestamp":"2023-12-10T18:21:25.414Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T18:21:40.384Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:21:40.403Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:21:44.180Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:21:44.181Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 3.999 ms","timestamp":"2023-12-10T18:21:44.185Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:21:44.189Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:21:44.190Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.890 ms","timestamp":"2023-12-10T18:21:44.190Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T18:23:21.691Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:23:21.704Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:23:24.851Z"}
+{"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Post command failed","timestamp":"2023-12-10T18:23:24.852Z"}
+{"level":"http","message":"POST /api/robotics 500 33 - 3.526 ms","timestamp":"2023-12-10T18:23:24.856Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:23:24.859Z"}
+{"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Post command failed","timestamp":"2023-12-10T18:23:24.860Z"}
+{"level":"http","message":"POST /api/robotics 500 33 - 2.011 ms","timestamp":"2023-12-10T18:23:24.861Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T18:23:56.307Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:23:56.325Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:23:59.774Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:23:59.776Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 6.368 ms","timestamp":"2023-12-10T18:23:59.782Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:23:59.786Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:23:59.786Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.680 ms","timestamp":"2023-12-10T18:23:59.787Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:24:01.443Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:24:01.444Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 2.719 ms","timestamp":"2023-12-10T18:24:01.446Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:24:01.448Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:24:01.449Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.903 ms","timestamp":"2023-12-10T18:24:01.450Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:24:02.798Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:24:02.799Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.805 ms","timestamp":"2023-12-10T18:24:02.801Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:24:02.803Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:24:02.803Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.765 ms","timestamp":"2023-12-10T18:24:02.805Z"}
+{"level":"info","message":"Express started on http://localhost:3000; press Ctrl-C to terminate.","timestamp":"2023-12-10T18:25:00.537Z"}
+{"level":"info","message":"MongoDB connection established on 127.0.0.1 at 27017","timestamp":"2023-12-10T18:25:00.561Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:25:03.168Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:25:03.171Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 5.953 ms","timestamp":"2023-12-10T18:25:03.177Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:25:03.181Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:25:03.182Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.802 ms","timestamp":"2023-12-10T18:25:03.182Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:25:04.594Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:25:04.595Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.793 ms","timestamp":"2023-12-10T18:25:04.596Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:25:04.598Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:25:04.599Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.873 ms","timestamp":"2023-12-10T18:25:04.600Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:25:05.816Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:25:05.816Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.181 ms","timestamp":"2023-12-10T18:25:05.817Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:25:05.818Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:25:05.818Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 0.608 ms","timestamp":"2023-12-10T18:25:05.819Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:25:06.944Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:25:06.944Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 1.461 ms","timestamp":"2023-12-10T18:25:06.945Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:25:06.947Z"}
+{"level":"info","message":"Post command success","result":{"armed":true,"message":"foo"},"timestamp":"2023-12-10T18:25:06.947Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 0.588 ms","timestamp":"2023-12-10T18:25:06.947Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:25:08.051Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:25:08.052Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 0.918 ms","timestamp":"2023-12-10T18:25:08.053Z"}
+{"level":"info","message":"Robotics postCommand service","timestamp":"2023-12-10T18:25:08.054Z"}
+{"level":"info","message":"Post command success","result":{"armed":false,"message":"foo"},"timestamp":"2023-12-10T18:25:08.054Z"}
+{"level":"http","message":"POST /api/robotics 200 34 - 0.642 ms","timestamp":"2023-12-10T18:25:08.054Z"}

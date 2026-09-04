@@ -1,0 +1,127 @@
+{"level":"error","message":"Error message","timestamp":"2023-08-06T17:32:23.383Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T17:52:34.434Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T17:55:58.441Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T18:56:10.664Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:01:23.768Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:03:38.316Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:04:35.016Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:06:06.461Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:07:47.379Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:10:09.290Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:23:51.720Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:24:30.567Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:25:11.703Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:25:37.996Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:39:47.322Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:43:33.640Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:45:28.363Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:46:04.023Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:46:15.154Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:50:39.824Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-06T19:51:48.796Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-07T20:56:56.667Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-07T21:28:53.466Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-07T23:00:59.134Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-07T23:22:41.218Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-07T23:28:47.160Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-07T23:33:11.479Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-07T23:40:07.920Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:18:51.540Z"}
+{"level":"error","message":"Create user failed","timestamp":"2023-08-08T00:19:06.901Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:20:47.616Z"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"johndoe@hotmail.com"},"level":"error","timestamp":"2023-08-08T00:21:33.795Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:24:46.724Z"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"johndoe@hotmail.com"},"level":"error","timestamp":"2023-08-08T00:24:51.868Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:32:25.281Z"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"johndoe@hotmail.com"},"level":"error","timestamp":"2023-08-08T00:32:31.622Z"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"johndoe@hotmail.com"},"level":"error","timestamp":"2023-08-08T00:32:41.100Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:33:02.808Z"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"johndoe@hotmail.com"},"level":"error","timestamp":"2023-08-08T00:33:08.273Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:38:49.112Z"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"johndoe@hotmail.com"},"level":"error","timestamp":"2023-08-08T00:38:53.245Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:39:43.049Z"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"johndoe@hotmail.com"},"level":"error","timestamp":"2023-08-08T00:39:46.411Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:42:11.057Z"}
+{"error":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"johndoe@hotmail.com"}},"level":"error","message":"Create user failed","timestamp":"2023-08-08T00:42:15.897Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:43:32.945Z"}
+{"error":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"johndoe@hotmail.com"}},"level":"error","message":"Create user failed","timestamp":"2023-08-08T00:43:35.096Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:44:45.591Z"}
+{"error":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"johndoe@hotmail.com"}},"level":"error","message":"Create user failed","timestamp":"2023-08-08T00:44:52.496Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:49:12.459Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:51:42.790Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:53:02.578Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:53:30.155Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:53:54.951Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:54:49.635Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:57:06.506Z"}
+{"level":"error","message":"Peak not found","timestamp":"2023-08-08T00:57:12.563Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T00:58:33.438Z"}
+{"level":"error","message":"Peak not found","timestamp":"2023-08-08T00:58:52.185Z"}
+{"level":"error","message":"Peak not found","timestamp":"2023-08-08T00:59:06.124Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-08T23:49:12.967Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:17:08.593Z"}
+{"level":"error","message":"Peak not found","timestamp":"2023-08-09T00:17:50.104Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:19:53.343Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:20:43.941Z"}
+{"error":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"johndoe@hotmail.com"}},"level":"error","message":"Create user failed","timestamp":"2023-08-09T00:20:46.554Z"}
+{"level":"error","message":"Peak not found","timestamp":"2023-08-09T00:21:06.177Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:25:32.565Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:33:08.477Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:33:50.628Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:36:59.937Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:37:53.815Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:43:59.659Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:44:37.909Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:45:24.305Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:45:54.888Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:48:29.808Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T00:50:05.692Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:03:28.638Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:04:04.333Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:04:52.614Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:06:06.155Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:06:59.676Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:12:52.329Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:13:42.369Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:14:38.249Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:16:29.343Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:16:57.393Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:17:27.351Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:19:19.067Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:22:17.138Z"}
+{"error":{},"level":"error","message":"Update user by email failed","timestamp":"2023-08-09T01:22:19.551Z"}
+{"error":{},"level":"error","message":"Update user by email failed","timestamp":"2023-08-09T01:23:03.110Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:23:43.087Z"}
+{"error":{},"level":"error","message":"Update user by email failed","timestamp":"2023-08-09T01:23:45.997Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:24:51.018Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:25:33.980Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:26:20.545Z"}
+{"error":{},"level":"error","message":"Update user by email failed","timestamp":"2023-08-09T01:26:24.879Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:27:06.003Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:27:29.494Z"}
+{"error":{},"level":"error","message":"Unable to find record to update","timestamp":"2023-08-09T01:27:31.871Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:28:32.447Z"}
+{"error":{},"level":"error","message":"Unable to find record to update","timestamp":"2023-08-09T01:28:35.541Z"}
+{"error":{},"level":"error","message":"Unable to find record to update","timestamp":"2023-08-09T01:28:39.946Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:28:53.434Z"}
+{"error":{},"level":"error","message":"Unable to find record to update","timestamp":"2023-08-09T01:28:55.831Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:31:03.345Z"}
+{"error":{},"level":"error","message":"Unable to find record to update","timestamp":"2023-08-09T01:31:06.559Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:31:26.828Z"}
+{"error":{},"level":"error","message":"Unable to find record to update","timestamp":"2023-08-09T01:31:29.075Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:32:21.601Z"}
+{"error":{},"level":"error","message":"Unable to find record to update","timestamp":"2023-08-09T01:32:49.451Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:35:03.833Z"}
+{"error":{},"level":"error","message":"Unable to find record to update","timestamp":"2023-08-09T01:35:06.772Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:38:49.813Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:39:40.074Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:39:59.199Z"}
+{"error":{},"level":"error","message":"Unable to find record to delete","timestamp":"2023-08-09T01:40:02.510Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:42:59.527Z"}
+{"error":{},"level":"error","message":"Create user success","timestamp":"2023-08-09T01:43:12.674Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:43:45.933Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:45:09.642Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:51:06.477Z"}
+{"error":{},"level":"error","message":"Delete user by email failed","timestamp":"2023-08-09T01:51:15.908Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:52:15.107Z"}
+{"level":"error","message":"Error message","timestamp":"2023-08-09T01:52:39.439Z"}
